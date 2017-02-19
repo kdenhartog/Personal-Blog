@@ -7,10 +7,6 @@
 ---
 # <center> Kyle Den Hartog </center>
 
-### <left> Present Address </left>                                            <right> Permanent Address </right>
-<left> 618 S. Van Buren St. APT2 </left>                                       <right> 2003 40th Place </right>
-<left> Iowa City, IA 52240 </left>                                        <right> Des Moines, IA 50310 </right>
-
 ## Relevant Skills:
 * Software Languages (in order of familiarity) - Java, Agda, JavaScript, Python, Assembly, C
 *	Relevant Applications Used: NMAP, Nessus Pro, Burp Suite, Nikto, OpenVAS, OWASP ZAP,
@@ -39,7 +35,7 @@ Associates Degree in Liberal Arts – Spring 2015
 * Developed Swift Shift, an Android game on the play store with 100 downloads
 
 ## Internship Experience:
-### ProCircular Inc., Security Engineer I, Iowa City, IA		                           May 2016 - Present
+### ProCircular Inc., Security Engineer I, Iowa City, IA		                           <right>May 2016 - Present </right>
 * Conducted security assessments and red team engagements using tools on Kali Linux
 * Utilized security protocols to harden and secure clients’ networks and Web Applications
 * Communicated with clients and colleagues to identify and mitigate security concerns
