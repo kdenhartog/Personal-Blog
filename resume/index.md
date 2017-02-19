@@ -5,14 +5,14 @@
   date: 2017-02-19
   comments: false
 ---
-## Relevant Skills:
-* Software Languages (in order of familiarity) - Java, Agda, JavaScript, Python, Assembly, C
+### Relevant Skills:
+* Software Languages (in order of familiarity) - Java, Agda, Python, JavaScript, Assembly, C
 *	Relevant Applications Used: NMAP, Nessus Pro, Burp Suite, Nikto, OpenVAS, OWASP ZAP, <br />
-  WPScan, Kali Linux, SQLmap, VirtualBox, Android Studio, NetBeans IDE, Github, svnX
+  WPScan, Kali Linux, SQLmap, VirtualBox, Android Studio, IntelliJ IDEA, Github, svnX
 *	Familiarity with Microsoft Windows 7 & 10 / Debian Linux / Mac OS X
 *	Entrepreneurial Driven
 
-## Education:
+### Education:
 <p>
 University of Iowa, Iowa City, IA <br />
 BA in Computer Science – expected May 2017
@@ -33,7 +33,8 @@ Associates Degree in Liberal Arts – Spring 2015
 * Developed Swift Shift, an Android game on the play store with 100 downloads
 
 ### Internship Experience:
-ProCircular Inc., Security Engineer I, Iowa City, IA		                           <right>May 2016 - Present </right>
+
+#### <p>ProCircular Inc., Security Engineer I, Iowa City, IA		                           <right>May 2016 - Present </right></p>
 * Conducted security assessments and red team engagements using tools on Kali Linux
 * Utilized security protocols to harden and secure clients’ networks and Web Applications
 * Communicated with clients and colleagues to identify and mitigate security concerns
