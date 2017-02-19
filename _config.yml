@@ -1,10 +1,10 @@
 # Site
 title:              Kyle Den Hartog
-bio:                'Hacker. Bicycler. Futurist. Skiier. Developer.'
-description:        "Hacker. Bicycler. Futurist. Skiier. Developer."
+bio:                'Hacker. Bicyclist. Futurist. Skiier. Developer.'
+description:        "Hacker. Bicyclist. Futurist. Skiier. Developer."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/profilepic_linkedIn.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
