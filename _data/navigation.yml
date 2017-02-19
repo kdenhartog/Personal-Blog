@@ -1,4 +1,13 @@
 # Site navigation links
 
+- title: Resume
+  url: /resume/
+
 - title: Projects
   url: /projects/
+
+- title: About Me
+  url: /about/
+
+- title: Thoughts
+  url: /posts/
