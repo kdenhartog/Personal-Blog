@@ -1,15 +1,15 @@
 ---
   layout: page
   title: Resume
-  tags: [about, Jekyll, theme, moon]
-  date: 2016-03-21
+  tags: [Resume]
+  date: 2017-02-19
   comments: false
 ---
-###                                           Kyle Den Hartog
+# Kyle Den Hartog
 
-##Present Address							                                                      Permanent Address
-618 S. Van Buren St. APT #2	  					         	                                  2003 40th Place
-Iowa City, IA 52240						                                                 Des Moines, IA 50310
+### Present Address                                            Permanent Address
+618 S. Van Buren St. APT2                                        2003 40th Place
+Iowa City, IA 52240                                         Des Moines, IA 50310
 
 ## Relevant Skills:
 * Software Languages (in order of familiarity) - Java, Agda, JavaScript, Python, Assembly, C
@@ -36,14 +36,14 @@ Associates Degree in Liberal Arts – Spring 2015
 * Developed Swift Shift, an Android game on the play store with 100 downloads
 
 ## Internship Experience:
-# ProCircular Inc., Security Engineer I, Iowa City, IA		                           May 2016 - Present
+### ProCircular Inc., Security Engineer I, Iowa City, IA		                           May 2016 - Present
 * Conducted security assessments and red team engagements using tools on Kali Linux
 * Utilized security protocols to harden and secure clients’ networks and Web Applications
 * Communicated with clients and colleagues to identify and mitigate security concerns
 * Identified vulnerable PII and instructed on remediation techniques to protect principals of clients
 
 ## Work Experience:
-# U. of Iowa Distribution Center, Receiving Coordinator, Iowa City, IA            August 2015 - May 2016
+### U. of Iowa Distribution Center, Receiving Coordinator, Iowa City, IA            August 2015 - May 2016
 * Coordinated with a team of 3-5 to identify issues of concern; such as incorrect orders
 * Inspected daily summaries with an eye for detail to identify and correct errors made
 * Trained and mentored new team members about our processes and systems
