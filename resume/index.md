@@ -5,11 +5,11 @@
   date: 2017-02-19
   comments: false
 ---
-# Kyle Den Hartog
+# <center> Kyle Den Hartog </center>
 
-### Present Address                                            Permanent Address
-618 S. Van Buren St. APT2                                        2003 40th Place
-Iowa City, IA 52240                                         Des Moines, IA 50310
+### <left> Present Address </left>                                            <right> Permanent Address </right>
+<left> 618 S. Van Buren St. APT2 </left>                                       <right> 2003 40th Place </right>
+<left> Iowa City, IA 52240 </left>                                        <right> Des Moines, IA 50310 </right>
 
 ## Relevant Skills:
 * Software Languages (in order of familiarity) - Java, Agda, JavaScript, Python, Assembly, C
@@ -19,12 +19,15 @@ Iowa City, IA 52240                                         Des Moines, IA 50310
 *	Entrepreneurial Driven
 
 ## Education:
-University of Iowa, Iowa City, IA
+<p>
+University of Iowa, Iowa City, IA <br />
 BA in Computer Science – expected May 2017
+</p>
 
-Kirkwood Community College, Iowa City, IA
+<p>
+Kirkwood Community College, Iowa City, IA <br />
 Associates Degree in Liberal Arts – Spring 2015
-
+</p>
 ## Relevant Courses and Projects:
 * Algorithms
 * Data Structures
