@@ -1,14 +1,13 @@
 ---
   layout: resume
   title: Resume
+  tags: [resume]
   date: 2017-02-19
   comments: false
 ---
-# <center> Kyle Den Hartog </center>
-
 ## Relevant Skills:
 * Software Languages (in order of familiarity) - Java, Agda, JavaScript, Python, Assembly, C
-*	Relevant Applications Used: NMAP, Nessus Pro, Burp Suite, Nikto, OpenVAS, OWASP ZAP,
+*	Relevant Applications Used: NMAP, Nessus Pro, Burp Suite, Nikto, OpenVAS, OWASP ZAP, <br />
   WPScan, Kali Linux, SQLmap, VirtualBox, Android Studio, NetBeans IDE, Github, svnX
 *	Familiarity with Microsoft Windows 7 & 10 / Debian Linux / Mac OS X
 *	Entrepreneurial Driven
