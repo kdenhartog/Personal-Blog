@@ -14,13 +14,13 @@
 
 ### Education:
 <p>
-University of Iowa, Iowa City, IA <br />
-BA in Computer Science – expected May 2017
+    University of Iowa, Iowa City, IA <br />
+    BA in Computer Science – expected May 2017
 </p>
 
 <p>
-Kirkwood Community College, Iowa City, IA <br />
-Associates Degree in Liberal Arts – Spring 2015
+    Kirkwood Community College, Iowa City, IA <br />
+    Associates Degree in Liberal Arts – Spring 2015
 </p>
 ### Relevant Courses and Projects:
 * Algorithms
