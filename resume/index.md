@@ -7,20 +7,20 @@
 ---
 ### Relevant Skills:
 * Software Languages (in order of familiarity) - Java, Agda, Python, JavaScript, Assembly, C
-*	Relevant Applications Used: NMAP, Nessus Pro, Burp Suite, Nikto, OpenVAS, OWASP ZAP, <br />
-  WPScan, Kali Linux, SQLmap, VirtualBox, Android Studio, IntelliJ IDEA, Github, svnX
+*	Relevant Applications Used: NMAP, Nessus Pro, Burp Suite, Metasploit, Nikto, OWASP ZAP, <br />
+  OpenVAS, WPScan, Kali Linux, SQLmap, VirtualBox, Android Studio, IntelliJ IDEA, Github, svnX
 *	Familiarity with Microsoft Windows 7 & 10 / Debian Linux / Mac OS X
 *	Entrepreneurial Driven
 
 ### Education:
 <p>
-University of Iowa, Iowa City, IA <br />
-BA in Computer Science – expected May 2017
+- University of Iowa, Iowa City, IA <br />
+- BA in Computer Science – expected May 2017
 </p>
 
 <p>
-Kirkwood Community College, Iowa City, IA <br />
-Associates Degree in Liberal Arts – Spring 2015
+- Kirkwood Community College, Iowa City, IA <br />
+- Associates Degree in Liberal Arts – Spring 2015
 </p>
 ### Relevant Courses and Projects:
 * Algorithms
