@@ -34,7 +34,7 @@ Associates Degree in Liberal Arts – Spring 2015
 
 ### Internship Experience:
 
-#### <p>ProCircular Inc., Security Engineer I, Iowa City, IA		                          
+#### ProCircular Inc., Security Engineer I, Iowa City, IA		                          
 ##### May 2016 - Present
 * Conducted security assessments and red team engagements using tools on Kali Linux
 * Utilized security protocols to harden and secure clients’ networks and Web Applications
