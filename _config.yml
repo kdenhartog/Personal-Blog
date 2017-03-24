@@ -4,8 +4,8 @@ bio:                'Hacker. Bicyclist. Futurist. Skier. Developer. This website
 description:        "Hacker. Bicyclist. Futurist. Skier. Developer."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/profilepic_linkedIn.jpg'
-background:         'assets/img/background.jpg'
+logo:               'assets/img/profilepic.jpg'
+background:         'assets/img/background.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://kdenhartog.github.io
