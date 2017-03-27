@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: thought
 title:  "Markdown Syntax"
 date:   2016-03-15
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 tag:
-- markdown 
+- markdown
 - syntax
 - sample
 - test
