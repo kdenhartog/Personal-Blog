@@ -6,4 +6,4 @@ layout: resume
 ---
 
 [downloadable PDF version](/assets/Resume-Kyle Den Hartog.pdf)
-<img src="/assets/img/Resume-Kyle Den Hartog.jpg">
+<img src="/assets/img/Resume.jpg">
