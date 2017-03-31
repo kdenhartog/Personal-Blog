@@ -34,14 +34,14 @@ disqus_shortname:   kdenhartog
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        UA-96572545-1
   #verify:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              mail@kyledenhartog.com
 twitter:            kyle_dh
 facebook:           kyle.d.hartog
 github-url:         kdenhartog
