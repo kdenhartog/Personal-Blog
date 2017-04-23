@@ -5,5 +5,5 @@ date: 2017-03-28
 layout: resume
 ---
 
-[downloadable PDF version](/assets/Resume-Kyle Den Hartog.pdf)
+[downloadable PDF version](/assets/Resume-KyleDenHartog.pdf)
 <img src="/assets/img/Resume.jpg">
