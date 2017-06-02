@@ -4,7 +4,7 @@ title: "Personal Privacy in the Wake of Reoccurring Data Breaches"
 date: 2016-12-23
 excerpt: "It seems like every other week there is a new data breach in the news."
 tags: [Personal Data, Privacy, Guide]
-comments: true
+comments: false
 ---
 It seems like every other week there is a new data breach in the news. Some notable incursions of 2016 were LinkedIn, Yahoo, and a new one as of December 5th of 2016, DailyMotion (a video hosting service).
 
@@ -20,7 +20,7 @@ Answer: Do NOT reuse passwords on multiple sites. Even similar passwords are use
 
 **How am I supposed to remember that many passwords?**
 
-Answer: Use a password manager such as LastPass to synchronize passwords on every device you use. For help setting up LastPass, check out their support center here: https://lastpass.com/support.php.
+Answer: Use a password manager such as LastPass to synchronize passwords on every device you use. For help setting up LastPass, check out their support center here: [LastPass](https://lastpass.com/support.php).
 
 **LastPass, however, isn’t a “set it and forget it” solution. With any security practice we want to make sure we maintain it. Which leads us to our next piece of advice:**
 
