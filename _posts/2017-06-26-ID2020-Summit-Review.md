@@ -2,7 +2,7 @@
 layout: thought
 title: "ID2020-Summit-Review"
 date: 2017-06-26
-excerpt: ""
+excerpt: "it's important that organizations like ID2020 host these events to bring key stakeholders together to share experiences and form coalitions"
 tags: [ID2020, Digital ID, Review]
 comments: false
 ---
