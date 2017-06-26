@@ -4,7 +4,7 @@ title: "Personal Privacy in the Wake of Reoccurring Data Breaches"
 date: 2016-12-23
 excerpt: "It seems like every other week there is a new data breach in the news."
 tags: [Personal Data, Privacy, Guide]
-comments: true
+comments: false
 ---
 It seems like every other week there is a new data breach in the news. Some notable incursions of 2016 were LinkedIn, Yahoo, and a new one as of December 5th of 2016, DailyMotion (a video hosting service).
 
