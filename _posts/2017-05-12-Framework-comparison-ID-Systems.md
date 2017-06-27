@@ -73,7 +73,7 @@ High has been given to a decentralized structure to allow for largest amount of 
 ## Accessibility
 With identity, it is important that the identity has some accessibility guarantees. If the system is not accessible then the identities it impacts the usage of the system. Accessibility places an emphasis on how the system is used as well as the ability for the user to establish their control of their identity.
 
-*Independence:*
+#### *Independence:*
 Independence of an identity system is important to best adapt to the users of the actual identities. A system that is more adaptable to the users will provide better availability of the identities allowing for the integration of the identities in a better manor. The rankings of independence are:
 * High: Open source system changeable by system agreement
 * Medium: business controlled and developed, but open source and changeable by system agreement
