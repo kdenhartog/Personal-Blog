@@ -21,9 +21,8 @@ layout: compress
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
-                <div class="post-list">
-                    {% for post in site.posts %}
-                        {% if post.project %}
+                <div class="project-list">
+                    {% for project in projects %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
@@ -31,13 +30,7 @@ layout: compress
                             <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                         </li>
                     </ul>
-                      {% endif %}
                     {% endfor %}
-                </div>
-                <div>
-                  <body>
-                    I am in the process of producing write ups for projects I am currently working on.
-                  </body>
                 </div>
             </div>
         </div>
