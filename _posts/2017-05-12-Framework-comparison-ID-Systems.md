@@ -35,7 +35,7 @@ Throughout this paper, a scale is used to identify the ability of a system to me
 ## Verifiability
 Verifiability serves in important role in an identity system, particularly digital identity systems. Verification is one of the integral features of an identity system and must be quick, efficient, and decisive in its ability to verify a legitimate identity versus a falsified identity. The two subcategories of verifiability is Trusted and Verification method.
 
-*Trusted source:*
+### *Trusted source:*
 The purpose in having a trusted source in an identity system is important to being able to guarantee the validity of the system. If falsified identities can be created, it degrades the integrity of all other identities in the system. As such the criteria for trusted source is as follows.
 * High: A user can independently determine its ability to trust another user
 * Medium: A user requires a trust link to verify another user
@@ -43,7 +43,7 @@ The purpose in having a trusted source in an identity system is important to bei
 
 The rationality of setting high as any node being able to independently verify another user is that it allows for the greatest level of ease as well as meeting the guarantee of verification. Medium is more representative of a centralized system which requires barriers of entry to verify another user. Last, a low is intended to be given to systems that have no trust and as such the identity system can be falsified.
 
-*Verification method:*
+### *Verification method:*
 The verification method criteria are intended to look specifically at how the verification of the data is conducted. This is important to be able to identify the level of ease a false identity would have in being able to pass as a legitimate identity. The ranks for verification methods are:
 * High: Mathematical proof
 * Medium: provides reasonable certainty of verification
@@ -54,7 +54,7 @@ The rationality of setting high as a mathematical proof is that the system provi
 ## System Architecture:
 System architecture addresses the ways in which the system is architected. This is an important factor in any system and can be the difference between a successful and a failed identity system.
 
-*Organizational structures:*
+### *Organizational structures:*
 Organizational structure is an important to be considered in an identity system because it allows for subsets of a population larger than a single user to emerge. As such an identity system benefits immensely from the formation of organizational structures, otherwise known as groups, within the system. The ranking for organization structures is:
 * High: Organizational Structures are integrated into the system
 * Medium: Organizational structures can be formed by application of the system, but not integrated in the system
@@ -62,7 +62,7 @@ Organizational structure is an important to be considered in an identity system 
 
 High is given to a system that directly integrates organization structures directly into the system and builds around them. Medium is intended to be used for systems which have strong identities, but must conduct the implementation outside of the identity system. A low should be given to a system which doesn’t allow organizational structures to form either through the system or outside of the system.
 
-*Centralization:*
+### *Centralization:*
 Centralization is a key feature of identity systems, more particularly digital identity systems which have utilized new structure formats. Centralization looks to address the structure of the identity system on a high level regarding the creation, and verification of identities. The rankings of centralization as a criterion is:
 * High: Decentralized allowing anyone apart of the system
 * Medium: Hierarchical with trusted parties used by the system
@@ -81,7 +81,7 @@ Independence of an identity system is important to best adapt to the users of th
 
 The high ranking places an emphasis on an open source system that allows for the system to be changed by the users as well as focusing on system agreement. System agreement is important to be able to keep the usage of the system. With medium, there is a focus on business controlled systems. By having the system controlled by a business as opposed to controlled by the users, it creates a vector for the system to be hijacked or steered in a direction against the will of the users. Low was given to an identity system that focuses on the proprietary aspects of a business which limits the adoption of the system.
 
-*Devices:*
+### *Devices:*
 The focus of this subcategory is to establish the easy of the system to be integrated quickly. A system that can be deployed and requires less barriers of entry will allow the system greater access to the identity system. As such it is important to consider what is necessary to use the system which is what this criterion is for. The rankings for devices is as follows:
 * High: System provides all components necessary
 * Medium: System relies upon common devices to implement
@@ -89,7 +89,7 @@ The focus of this subcategory is to establish the easy of the system to be integ
 
 An identity system that provides all necessary components or requires no components other than what is inherent to a person should receive a high in this criterion. A medium should be given to a system that relies upon common devices. This is a medium because it cannot guarantee that the system is adoptable by all people which could pose limitations for accessibility. A low should be given to a system which requires a new device to use the system. This creates a significant barrier on accessibility to the system.
 
-*Deployability:*
+### *Deployability:*
 If an identity system is too difficult to deploy or requires more work than current systems, it likely will not see a mass adoption. The accessibility of an identity system relies heavily on its ability to be deployed easily and efficiently by any user who wants to build on top of the identity system. The rankings for the criterion of deployability are:
 * High: Easy to adopt onto all current systems without changes being made
 * Medium: Requires some changes to current infrastructure to become widely adopted
@@ -97,7 +97,7 @@ If an identity system is too difficult to deploy or requires more work than curr
 
 A high should be given to systems that can be easily used and adopted by any user who wishes to utilize the identity system. This grants the highest level of accessibility to the system. It is important to consider whether changes must be made to current infrastructure in order to adopt the system. If some changes must be made the system should be given a medium ranking. Last, a low should be given if the system requires a “scrap and replace” approach to implement the system. This will likely be costly pushing users away from the system and limiting its accessibility.
 
-*Account recovery:*
+### *Account recovery:*
 Account recovery is important to the accessibility of a system because it is what allows for persistence of an identity if a user makes a mistake. As such the rankings for account recovery is as follows:
 * High: Account recovery is easy and secure
 * Medium: Account recovery is difficult and secure
@@ -105,7 +105,7 @@ Account recovery is important to the accessibility of a system because it is wha
 
 With account recovery, it is important to consider the tradeoff of convenience and security. A system that receives a high from this criterion should meet this tradeoff in an optimal fashion. A system that is not an optimal tradeoff between security and usability, and is still secure should receive a medium ranking. Last, a system that either does not allow for account recovery or is unsecure in the ability to recover an account should be considered low. A system with a low criterion can have a significant impact on accessibility to users.
 
-*Portability:*
+### *Portability:*
 Portability looks at the accessibility of a system to be used in both physical applications and digital applications. As such the ranking for portability is as follows:
 * High: Able to be integrated with both physical and digital applications without additional requirements (nothing needed)
 * Medium: Able to be integrated with both physical and digital applications, but has additional requirements (devices, cards carried)
@@ -113,7 +113,7 @@ Portability looks at the accessibility of a system to be used in both physical a
 
 The purpose in ranking in this manor is to grant the greatest level of accessibility and as a system reduces how an identity system can be used in terms of physical and digital applications it reduces the accessibility of the identity system.
 
-*Identity removal:*
+### *Identity removal:*
 Identity removal is important for the purposes of privacy of an identity system. Privacy provides some important properties, so a quality identity system must have a method to reconcile the removal of an identity. The levels of identity removal are:
 * High: A user may delete their identity from the system at anytime
 * Medium: A user may delete their identity with approval of a 3rd party
@@ -124,7 +124,7 @@ The high ranking should be given to an identity system that allows for the easy 
 ## Security
 Security is an important part of an identity system as it maintains the trust in the system. A system that is secure is a system that can be relied upon. The criteria of security are integrity, confidentiality, theft prevention, data revocation, and anonymity. In this category, there is a large focus on the system’s security as well as the control of the user data.
 
-*Integrity:*
+### *Integrity:*
 A system that provides integrity guarantees is important because it shows that the data that is being transacted is reliable data. This is an important factor in being able to trust the system, and be certain of its security as well. The rankings for integrity are:
 * High: Data history is immutable and all changes are recorded
 * Medium: Data is maintained by a trusted source with proper security controls
@@ -132,7 +132,7 @@ A system that provides integrity guarantees is important because it shows that t
 
 Through the integrity of this system a user will have full control of the data, but it can be verified that the data is kept in the state that it was intended. High ranking is intended to hold this by representing a system with a high level of data integrity because the history can be seen of when the data was created and changed. A medium ranking is given when a trusted source maintains the data securely. By relying upon a 3rd party it becomes possible that the data could be manipulated reducing the integrity of the data. Last, a low score is given to a system which disregards the integrity of the data of the identities.
 
-*Confidentiality:*
+### *Confidentiality:*
 Confidentiality is also an important point of security to consider. This focuses on user control of data. The rankings of confidentiality are:
 * High: Guaranteed protection through mathematical proof
 * Medium: Computationally unlikely to be broken
@@ -140,7 +140,7 @@ Confidentiality is also an important point of security to consider. This focuses
 
 A high ranking should be given to a system that provides mathematical proof that the system and its data is secure. This provides the strongest guarantees for the security of the system. A medium ranking should be given to identity systems that are computationally secure, but are not considered perfectly secure. Last, a low ranking should be given to an identity system which provides either no guarantees of confidentiality or utilizes deprecated processes that are easily broken.
 
-*Theft prevention:*
+### *Theft prevention:*
 Identity theft is important to address with an identity system. An identity system that is not secure to identity theft reduces the trust in the system as well as causes issues of concern for many other categories of this framework. The ranks for identity theft prevention are:
 * High: not possible
 * Medium: Difficult with little prevalence
@@ -148,7 +148,7 @@ Identity theft is important to address with an identity system. An identity syst
 
 A system which can guarantee an identity cannot be miss represented or stolen will receive a ranking of high. A ranking of medium should be given to a system which allows for little prevalence of identity theft and is difficult to conduct. To meet the tolerance level should be very small (> 1% of the system) and anything with a greater amount of prevalence should be given a low ranking.
 
-*Data revocation:*
+### *Data revocation:*
 Data revocation is important to the accessibility of an identity system because it places emphasis on the system’s ability to remain under control of the user. If the data of a user can be stolen, or accessed in a way that the user did not intend it could impact the security of the identity severely. The rankings for data revocation are:
 * High: Data access can be shared and unshared by the identity holder
 * Medium: Data access is shareable, but not revocable
@@ -156,7 +156,7 @@ Data revocation is important to the accessibility of an identity system because 
 
 A system which grants more data control should be ranked higher in this criterion. As such a high should be given to a system that allows a user to take away all access to data shared at any point in the past and doesn’t grant access to future data. A medium rank focuses on systems that allow some control of data, but do not allow for the system to remove data shared previously. A low should be given to a system that makes all data public as no control is given to the user.
 
-*Anonymity:*
+### *Anonymity:*
 Anonymity is an important aspect to consider when it comes to privacy. A system that does not allow for privacy hurts the security of the system because it prevents users from remaining in control of their data as well as what they choose to share. The rankings for this criterion are:
 * High: Allows for Anonymous users to join the system
 * Medium: Anonymity is allowed, but the anonymous identity can be linked to the person
