@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Framework for the comparison of Identity Systems"
+title: "Framework for the Comparison of Identity Systems"
 date: 2017-05-12
 excerpt: "Outlined in this paper is a framework to make these comparisons by relying upon 4 categories that are apart of identity systems. They are verifiability, system architecture, accessibility, and security."
 tags: [Digital ID, Framework, Identity]
