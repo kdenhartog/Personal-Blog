@@ -4,7 +4,7 @@ title: "ID2020-Summit-Review"
 date: 2017-06-26
 excerpt: "it's important that organizations like ID2020 host these events to bring key stakeholders together to share experiences and form coalitions"
 tags: [ID2020, Digital ID, Review]
-comments: false
+comments: true
 ---
 
 Attending the ID2020 Summit was an eye opening experience for me in many different aspects. For one, I once again was the youngest person in the room which I am beginning to learn to wear as a badge of honor. To me, it means I am finding myself in the right places and will continue to make contacts with people who I can collaborate with to make a positive impact on the lives of others in the future. The other insight I noticed was the importance of bringing all stakeholders to the table. This is something that I believe ID2020 did a very good job at, although I noticed that the people who currently live without ID were very sparse. I felt that because the summit missed out on this key stakeholder, it became more about getting the public and private sector to make deals rather than to be about making an impact on the lives of the 1.5 Billion people who do not have identity. Then again, I was a non-stakeholder in the eyes of many because my only claim to contribution was that I am a student interested in this problem.
