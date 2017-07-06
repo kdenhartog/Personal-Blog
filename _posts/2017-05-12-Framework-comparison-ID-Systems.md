@@ -101,9 +101,9 @@ A high should be given to systems that can be easily used and adopted by any use
 Account recovery is important to the accessibility of a system because it is what allows for persistence of an identity if a user makes a mistake. As such the rankings for account recovery is as follows:
 * High: Account recovery is easy and secure
 * Medium: Account recovery is difficult and secure
-* Low: Account recovery is impossible or unsecure
+* Low: Account recovery is impossible or insecure
 
-With account recovery, it is important to consider the tradeoff of convenience and security. A system that receives a high from this criterion should meet this tradeoff in an optimal fashion. A system that is not an optimal tradeoff between security and usability, and is still secure should receive a medium ranking. Last, a system that either does not allow for account recovery or is unsecure in the ability to recover an account should be considered low. A system with a low criterion can have a significant impact on accessibility to users.
+With account recovery, it is important to consider the tradeoff of convenience and security. A system that receives a high from this criterion should meet this tradeoff in an optimal fashion. A system that is not an optimal tradeoff between security and usability, and is still secure should receive a medium ranking. Last, a system that either does not allow for account recovery or is insecure in the ability to recover an account should be considered low. A system with a low criterion can have a significant impact on accessibility to users.
 
 #### *Portability:*
 Portability looks at the accessibility of a system to be used in both physical applications and digital applications. As such the ranking for portability is as follows:
