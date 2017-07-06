@@ -3,8 +3,8 @@ layout: thought
 title: "Cryptonomics Equilibrium"
 date: 2017-06-02
 excerpt: "Economic equilibrium means that cryptocurrency has tangible value to all involved parties therefore increasing the demand and flow of the tokens."
-tags: [Cryptocurrencies, Economics, ]
-comments: false
+tags: [Cryptocurrencies, Economics ]
+comments: true
 ---
 
 In the world of Cryptocurrencies it seems like there is a new ICO being launched every day. Many of these ICOs are being launched as ERC20 tokens on top of the Ethereum network and are fetching millions of dollars on launch. With many of these tokens launching before a beta version is out, the value of these ICOs are purely speculative. This speculation leads me to believe we are in the making for another Dot-com bubble.
