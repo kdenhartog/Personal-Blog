@@ -9,7 +9,7 @@ comments: true
 
 In a Twitter discussion yesterday with [@trbouma](https://twitter.com/trbouma) and [@tristanhoy](https://twitter.com/tristanhoy) about the relationship of digital identity and trust. In this discussion both of them made interesting points that lead me to suggest some discussions that I've had with (@ThisGuyHarrison)[https://twitter.com/ThisGuyHarrison] about how the difficulty with digital identities is that it is difficult to quantify trust, because digital identities are unverifiable and mutable.
 
-Starting off, I think it is important to define trust. According to [Merriam-Webster](https://www.merriam-webster.com/dictionary/trust) trust can be defined in a few ways. The one I want to address is, "assured reliance on the character, ability, strength, or truth of someone or something".
+Starting off, I think it is important to define trust. According to [Merriam-Webster](https://www.merriam-webster.com/dictionary/trust) trust can be defined in a few ways. The one I want to address is, **"assured reliance on the character, ability, strength, or truth of someone or something".**
 
 With this definition of trust we see evidence to support the point made by Tim that, "Trust is not an inherent property of a #digitalidentity. #Trust is the decision of the relying party."
 
