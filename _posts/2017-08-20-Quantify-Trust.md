@@ -7,7 +7,7 @@ tags: [Blockchain, Trust, Identity]
 comments: true
 ---
 
-Yesterday, [@trbouma](https://twitter.com/trbouma), [@tristanhoy](https://twitter.com/tristanhoy), and I begun discussing the relationship of digital identity and trust. In this discussion both of them made interesting points that lead me to suggest some discussions that I've had with [@ThisGuyHarrison](https://twitter.com/ThisGuyHarrison). Through my discussions I've reached the conclusion that it is difficult to quantify trust with digital identities because digital identities are unverifiable and mutable. In this blog post, I'll make the supporting argument for quantifying trust.
+Yesterday, [@trbouma](https://twitter.com/trbouma), [@tristanhoy](https://twitter.com/tristanhoy), and I begun discussing the relationship of digital identity and trust. In this discussion both of them made interesting points that lead me to suggest some discussions that I've had with [@ThisGuyHarrison](https://twitter.com/ThisGuyHarrison). Through my discussions I've reached the conclusion that it is difficult to quantify trust with digital identities because digital identities are unverifiable and mutable. In this blog post, I'll make the supporting argument for how it is possible to quantify trust by using blockchain, algorithms like PageRank, and a yet to be determined method of identity verification.
 
 Starting off, I think it is important to define trust. According to [Merriam-Webster](https://www.merriam-webster.com/dictionary/trust) trust can be defined in a few ways. The one I want to address is, **"assured reliance on the character, ability, strength, or truth of someone or something".**
 
