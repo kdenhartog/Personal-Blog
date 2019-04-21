@@ -10,7 +10,7 @@ project: true
 
 ## Introduction
 
-**For at least 4 years now, I've been keeping track of this curarated list (in the loosest sense possible), of quotes, thoughts, and ideas that had enough impact on me to write them down. Now I've decided I want to share them with others. By no means, would I constitute all of these as absolutely true, and in some cases they contradict each other. Rather, they were impactful enough to me to the point where I decided I wanted to store them for later, so I could share them. There's not much order or coherence to them other than I collected them. Hopefully at least one makes you question the world in a different way which is the whole reason I first started this project.**
+**For at least 4 years now, I've been keeping track of this curated list (in the loosest sense possible), of quotes, thoughts, and ideas that had enough impact on me to write them down. Now I've decided I want to share them with others. By no means, would I constitute all of these as absolutely true, and in some cases they contradict each other. Rather, they were impactful enough to me to the point where I decided I wanted to store them for later, so I could share them. There's not much order or coherence to them other than I collected them. Hopefully at least one makes you question the world in a different way which is the whole reason I first started this project.**
 
 ## Quotes
 
