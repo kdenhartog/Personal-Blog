@@ -1,14 +1,18 @@
 ---
-layout: projects
+layout: project
 title: "A Loosely Curated, but Chaotic Set of Quotes, Thoughts, and Ideas"
 date: 2019-04-20
 excerpt: "At some point in my life, these quotes, thoughts, or ideas had enough impact on me to write them down. Now I've decided I want to share them with others."
 tags: [Quotes, Thoughts, Ideas, Life]
 comments: true
+project: true
 ---
+
+## Introduction
 
 **For at least 4 years now, I've been keeping track of this curarated list (in the loosest sense possible), of quotes, thoughts, and ideas that had enough impact on me to write them down. Now I've decided I want to share them with others. By no means, would I constitute all of these as absolutely true, and in some cases they contradict each other. Rather, they were impactful enough to me to the point where I decided I wanted to store them for later, so I could share them. There's not much order or coherence to them other than I collected them. Hopefully at least one makes you question the world in a different way which is the whole reason I first started this project.**
 
+## Quotes
 
 "Expect the best outcome, but understand the worst outcome may still come and you can deal with it if it does."
 
@@ -541,5 +545,6 @@ I am infinitely small when compared to the universe yet I feel enlightened when 
 
 "Pain is life, but you can choose what type. Either the pain on the road to success. Or the pain of being haunted with regret."
 
+## Disclaimer
 
-**Disclaimer:** Some of these are my own ideas, some are thoughts heavily influenced by others ideas, and some are direct quotes that I found impactful. In such a case, I make no intent to monetize these or claims of ownership to these ideas. Rather, I consider them ideas and information in the most fluid sense that are intended to be shared. If you have a copyright on one of these, can prove a copyright violation, and do not wish for it to be included I would be happy to remove it from this page. I don't want to share ideas that are "owned" anyways. To do so contact me via one of the messaging links provided at the landing page of this domain.
+Some of these are my own ideas, some are thoughts heavily influenced by others ideas, and some are direct quotes that I found impactful. In such a case, I make no intent to monetize these or claims of ownership to these ideas. Rather, I consider them ideas and information in the most fluid sense that are intended to be shared. If you have a copyright on one of these, can prove a copyright violation, and do not wish for it to be included I would be happy to remove it from this page. I don't want to share ideas that are "owned" anyways. To do so contact me via one of the messaging links provided at the landing page of this domain.
