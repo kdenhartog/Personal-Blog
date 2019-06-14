@@ -14,6 +14,8 @@ project: true
 
 ## Quotes
 
+"First a company is ran by engineers, then a company is ran by accountants, and finally a company is ran by lawyers."
+
 "Expect the best outcome, but understand the worst outcome may still come and you can deal with it if it does."
 
 "Don't complain to others about your problems, half of them don't care and the other half are glad you have them."
