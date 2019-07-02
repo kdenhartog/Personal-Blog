@@ -14,6 +14,8 @@ project: true
 
 ## Quotes
 
+"If we never push people to change, then the people never will."
+
 "First a company is ran by engineers, then a company is ran by accountants, and finally a company is ran by lawyers."
 
 "Expect the best outcome, but understand the worst outcome may still come and you can deal with it if it does."
