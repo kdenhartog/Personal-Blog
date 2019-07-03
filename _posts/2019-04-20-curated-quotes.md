@@ -14,6 +14,8 @@ project: true
 
 ## Quotes
 
+"Just because history repeats itself doesn't mean that we're doomed to make the same mistakes. Not as long as people are willing to fight for something better."
+
 "If we never push people to change, then the people never will."
 
 "First a company is ran by engineers, then a company is ran by accountants, and finally a company is ran by lawyers."
