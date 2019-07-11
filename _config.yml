@@ -4,7 +4,7 @@ bio:                "Hacker. Bicyclist. Futurist. Skier. Developer."
 description:        "Hacker. Bicyclist. Futurist. Skier. Developer."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/profile.png'
+logo:               'assets/img/profile.jpg'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US

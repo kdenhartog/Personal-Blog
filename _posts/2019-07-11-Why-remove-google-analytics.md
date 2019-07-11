@@ -1,7 +1,7 @@
 ---
 layout: thought
 title: "Why I Decided to Remove Google Analytics from my Blog"
-date: 2016-12-23
+date: 2019-07-11
 excerpt: "I want to see a world where people can use technology privately each and everyday"
 tags: [Privacy]
 comments: true
