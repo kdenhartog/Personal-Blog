@@ -42,8 +42,8 @@ google:
   #ad-slot:
 #bing-verify:
 email:              mail@kyledenhartog.com
-twitter:            kyle_dh
-#facebook:          kyle.d.hartog
+#twitter:            username
+#facebook:          username
 github-url:         kdenhartog
 stackoverflow:      2276234/kyle-den-hartog
 linkedin:           kyledenhartog
@@ -62,10 +62,10 @@ linkedin:           kyledenhartog
 #weibo:             username
 #flickr:            username
 #codepen:           username
-#keybase:           username
+keybase:           kdenhartog
 #xmpp:              username@server.com
 #hackernews:        username
-quora:              Kyle-Den-Hartog
+#quora:              username
 
 # Gems
 gems:

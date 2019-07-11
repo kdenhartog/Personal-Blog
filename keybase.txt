@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kdenhartog
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kyledenhartog.com
+  * I am kdenhartog (https://keybase.io/kdenhartog) on keybase.
+  * I have a public key ASAVx5jvITEbqzyfZt8wQFWwU01-GJuUzPZXAny7xHheTQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012015c798ef21311bab3c9f66df304055b0534d7e189b94ccf657027cbbc4785e4d0a",
+      "host": "keybase.io",
+      "kid": "012015c798ef21311bab3c9f66df304055b0534d7e189b94ccf657027cbbc4785e4d0a",
+      "uid": "7287f113139392a11e3f18ca4e07c019",
+      "username": "kdenhartog"
+    },
+    "merkle_root": {
+      "ctime": 1562879109,
+      "hash": "7022c9901edcd39410e85eb3bce04bf8e89362f93934c4bf76c1e2335573ec59f745b5e6e0b71c1843379a8d7c3bdca817b1ae3fff1894344882f95ded92d4fb",
+      "hash_meta": "9ebbb47cd00182ea1bfdf5f8701c2f0ee8001308343f29b29ea6869194987a16",
+      "seqno": 5743046
+    },
+    "service": {
+      "entropy": "MY6uzCsmdOoAAOMe0vIBj2V4",
+      "hostname": "kyledenhartog.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1562879118,
+  "expire_in": 504576000,
+  "prev": "84867831f6c6d5169d51e97563ac04297e0f2096e50e7ef103fe61af8b07bf80",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFceY7yExG6s8n2bfMEBVsFNNfhiblMz2VwJ8u8R4Xk0Kp3BheWxvYWTESpcCBcQghIZ4MfbG1RadUel1Y6wEKX4PIJblDn7xA/5hr4sHv4DEIIM1vEw/YBOOm2E612XexFueWcEI22B3xEtl2j7Zzw7KAgHCo3NpZ8RAMw2I3ryL2pxYRfwLmvSKd1BvAierKSOh7EvZkWvFeUMXD91TaXu30qN03F8UT7Qr70cuyqSnt4HGhFr3/q30DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAm56F9CV5iJAMP5oTl2TTTmB/CxsSPstZNnF2Jd79hVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kdenhartog
+
+==================================================================
