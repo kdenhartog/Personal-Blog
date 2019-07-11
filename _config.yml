@@ -4,7 +4,7 @@ bio:                "Hacker. Bicyclist. Futurist. Skier. Developer."
 description:        "Hacker. Bicyclist. Futurist. Skier. Developer."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/profilepic.jpg'
+logo:               'assets/img/profile.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -36,7 +36,7 @@ disqus_shortname:   kyledenhartog
 # if you don't have any of social below, comment the line.
 google:
   #plus:            #username
-  analytics:        UA-96572545-1
+  #analytics:        
   #verify:
   #ad-client:
   #ad-slot:
