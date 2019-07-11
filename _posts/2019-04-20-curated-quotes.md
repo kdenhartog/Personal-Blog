@@ -14,6 +14,8 @@ project: true
 
 ## Quotes
 
+"How can you achieve your ten-year plan in the next six months?"
+
 "Just because history repeats itself doesn't mean that we're doomed to make the same mistakes. Not as long as people are willing to fight for something better."
 
 "If we never push people to change, then the people never will."
