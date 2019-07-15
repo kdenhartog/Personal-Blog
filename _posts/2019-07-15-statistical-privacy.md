@@ -21,5 +21,5 @@ So working of this idea of randomness can I introduce enough noise into the syst
 
 Some follow up questions, worth exploring as well.
 - Is there a way that I can blind my personal data in such a way that it's completely random, but when combined with other's data it's non-random?
-- If it is possible to extrapolate non-randomness at a macro level but not at a micro level, is it still an invasion of privacy? (This question comes with a baked with a personal bias that microlevel tracking is an invasion of privay)
+- If it is possible to extrapolate non-randomness at a macro level but not at a micro level, is it still an invasion of privacy? (This question comes with a personal bias that microlevel tracking is an invasion of privay)
 - What are the boundaries of this privacy?
