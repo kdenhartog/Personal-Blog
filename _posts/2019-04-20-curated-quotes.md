@@ -14,6 +14,8 @@ project: true
 
 ## Quotes
 
+"Being kind is fundamentally about taking responsibility for your impact on the people around you. It requires you be mindful of their feelings and considerate of the way your presence affects them."
+
 "How can you achieve your ten-year plan in the next six months?"
 
 "Just because history repeats itself doesn't mean that we're doomed to make the same mistakes. Not as long as people are willing to fight for something better."
