@@ -14,7 +14,11 @@ project: true
 
 ## Quotes
 
+
+
 "Being kind is fundamentally about taking responsibility for your impact on the people around you. It requires you be mindful of their feelings and considerate of the way your presence affects them."
+
+"A quiet and modest life brings more joy than a pursuit of success bound with constant unrest."
 
 "How can you achieve your ten-year plan in the next six months?"
 
