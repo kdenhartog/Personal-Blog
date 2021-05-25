@@ -11,8 +11,8 @@ locale:             en_US
 url:                https://kyledenhartog.com
 enforce_ssl:        kyledenhartog.com
 
-url:                https://www.kyledenhartog.com
-enforce_ssl:        www.kyledenhartog.com
+include:
+  - ".well-known"
 
 # Jekyll
 permalink:          /:title/
