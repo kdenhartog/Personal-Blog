@@ -1,0 +1,38 @@
+{
+    "@context": ["https://w3.org/ns/did/v1", "https://kyledenhartog/context/doggoservice"],
+    "id": "did:web:kyledenhartog.com",
+    "verificationMethod": [
+        {
+            "id": "#signingKey",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:web:kyledenhartog.com",
+            "publicKeyBase58": "AywtfWyMWRTokKnnwLChyCDMM32sbLzcGFxuuxKtwmxH"
+        },
+        {
+            "id": "did:web:kyledenhartog.com#handshakeKey",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:web:kyledenhartog.com",
+            "publicKeyBase58": "trJuKT83nv2FruwDkmMD5945R1syU5sCDiLm4kr2mTj"
+        }
+    ],
+    "authentication": [
+        "did:web:kyledenhartog.com#signingKey"
+    ],
+    "assertionMethod": [
+        "did:web:kyledenhartog.com#signingKey"        
+    ],
+    "capabilityDelegation": [
+        "did:web:kyledenhartog.com#signingKey"
+    ],
+    "capabilityInvocation": [
+        "did:web:kyledenhartog.com#signingKey"
+    ],
+    "keyAgreement": [
+        "did:web:kyledenhartog.com#handshakeKey"
+    ],
+    "service": [{
+        "id":"did:web:kyledenhartog.com#dogPicService",
+        "type": "DogPicService", 
+        "serviceEndpoint": "https://kyledenhartog.com"
+      }]
+}

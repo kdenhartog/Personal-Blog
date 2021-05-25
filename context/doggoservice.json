@@ -1,0 +1,10 @@
+{
+    "@context": {
+      "id": "@id",
+      "type": "@type", 
+      "DogPicService": {
+        "@id": "https://kyledenhartog.com/definitions/DogPicService",
+        "@type": "@id"
+      }
+    }
+}
