@@ -13,6 +13,7 @@ enforce_ssl:        kyledenhartog.com
 
 include:
   - ".well-known"
+  - "pictures"
 
 # Jekyll
 permalink:          /:title/
