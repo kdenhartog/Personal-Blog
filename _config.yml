@@ -13,7 +13,6 @@ enforce_ssl:        kyledenhartog.com
 
 include:
   - ".well-known"
-  - "pictures/doggoMeme.jpg"
 
 # Jekyll
 permalink:          /:title/
