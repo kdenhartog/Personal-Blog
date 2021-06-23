@@ -10,6 +10,9 @@ tags:
         DIDs,
         Decentralized Identifiers,
         Developer Tutorial,
+        Delegation,
+        Attenuation,
+        Attenuated Delegation
     ]
 comments: true
 ---
@@ -17,6 +20,18 @@ comments: true
 # Common Delegation Patterns in the Verifiable Credential Ecosystem
 
 It's commonly understood that verifiable credentials are a useful data model for expressing provenance and authority of data. In other words, they're great for solving the "who says what" problem in a digital ecosystem. However, did you know that there are three ways in which you can utilize VCs and DIDs to enable delegation and attenuated delegation for more complex scenarios? In this blog post, I'll cover the three patterns you can use with examples to help you figure out some of the more advanced capabilities of the VC data model. See below for more details!
+
+## Terminology
+
+Since it's quite common to see these terms within the IAM space, I figured it would be useful to first cover what each term means in simple term.
+
+**Delegation:** This is the ability for someone to share their abilities with another user within the system. There's multiple ways this can be done all with different forms of tradeoffs. 
+ 
+ 1. A user who shares their password with another user is performing delegation, but not in a way that allows an authorization endpoint (often times called a "verifier") to be able to uniquely differentiate between the two users. This inability to differentiate at the authorization endpoint often leads to concerns around the [confused deputy problem](https://en.wikipedia.org/wiki/Confused_deputy_problem).
+ 
+ 2. This when the system has been designed to allow the user to share their abilities with another user. The most common way this shows up today is with google document links. When a user "allows anyone with this link to view/comment/edit" they're granting abilites to other users in a delegated way. The difference being the system can identify these unique users, which is commonly seen via the further delegation based upon an email address or organization.
+
+**Attenuated delegation:** This is when the user opts to share only a portion of the abilities that they have. So looking at our options from delegation, option 1 would not allow this because the user is sharing all the same abilities that they have when logging into an account. So if an admin shares their password, the person they share the password with has admin abilities as well. One of the more common examples I can think of when attenuated delegation that is in use today is when a valet key is given to a valet. This key gives the valet access to drive the vehicle, but doesn't allow them to open a glovebox or trunk for example. In this case, the driver of the vehichle is able to share only a portion of their abilities (driving) without sharing all of their abilities (opening a glovebox or trunk). In almost every system I've seen, this has to be intentionally designed into the system.
 
 ## Delegation without attenuation by using DID Documents
 
@@ -160,7 +175,7 @@ This effectively is a method to allow Alice to add bob's public key to her did d
 
 ## Delegation by VCs
 
-Additionally, there's a well documented case to be able to establish attenuation using just VCs. See [Section Appendix C.5](https://w3c.github.io/vc-data-model/#subject-passes-a-verifiable-credential-to-someone-else) for more details on this pattern.
+Additionally, there's a well documented case to be able to establish delegation using just VCs without the ability to attenuate the data. See [Section Appendix C.5](https://w3c.github.io/vc-data-model/#subject-passes-a-verifiable-credential-to-someone-else) for more details on this pattern.
 
 ## Attenuated Delegation by VCs
 
