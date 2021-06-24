@@ -42,7 +42,7 @@ In this use case, the issuer is an employer who wishes to provide an employee cr
   "issuanceDate": "2010-01-01T19:73:24Z",
   "credentialSubject": {
     "id": "did:example:cfo",
-    "jobTitle": Chief Financial Officer",
+    "jobTitle": "Chief Financial Officer",
     "employeeNumber": 123,
   },
   "revocation": {
@@ -77,7 +77,7 @@ So, the CFO delegates the following credential to their assistant and hands over
   "issuanceDate": "2010-01-01T19:73:24Z",
   "credentialSubject": {
     "id": "did:example:assistant",
-    "jobTitle": Chief Financial Officer",
+    "jobTitle": "Chief Financial Officer",
     "employeeNumber": 123,
   },
   "revocation": {
@@ -122,7 +122,7 @@ Great, so now the assistant can generate the following delegated verifiable Pres
         "issuanceDate": "2010-01-01T19:73:24Z",
         "credentialSubject": {
             "id": "did:example:cfo",
-            "jobTitle": Chief Financial Officer",
+            "jobTitle": "Chief Financial Officer",
             "employeeNumber": 123,
         },
         "revocation": {
@@ -150,7 +150,7 @@ Great, so now the assistant can generate the following delegated verifiable Pres
         "issuanceDate": "2010-01-01T19:73:24Z",
         "credentialSubject": {
             "id": "did:example:assistant",
-            "jobTitle": Chief Financial Officer",
+            "jobTitle": "Chief Financial Officer",
             "employeeNumber": 123,
         },
         "proof": {
@@ -207,7 +207,7 @@ So in this scenario, the CFO adds `maximumAuthorizationLimit` property like so:
     "issuanceDate": "2010-01-01T19:73:24Z",
     "credentialSubject": {
         "id": "did:example:assistant",
-        "jobTitle": Chief Financial Officer",
+        "jobTitle": "Chief Financial Officer",
         "employeeNumber": 123,
         "maximumAuthorizationLimit": 10000
     },
@@ -247,7 +247,7 @@ and the verifiable presentation would now look like this:
         "issuanceDate": "2010-01-01T19:73:24Z",
         "credentialSubject": {
             "id": "did:example:cfo",
-            "jobTitle": Chief Financial Officer",
+            "jobTitle": "Chief Financial Officer",
             "employeeNumber": 123,
         },
         "revocation": {
@@ -275,7 +275,7 @@ and the verifiable presentation would now look like this:
         "issuanceDate": "2010-01-01T19:73:24Z",
         "credentialSubject": {
             "id": "did:example:assistant",
-            "jobTitle": Chief Financial Officer",
+            "jobTitle": "Chief Financial Officer",
             "employeeNumber": 123,
             "maximumAuthorizationLimit": 10000
         },
@@ -326,7 +326,7 @@ So now the delegation credential looks like this:
     "issuanceDate": "2010-01-01T19:73:24Z",
     "credentialSubject": {
         "id": "did:example:assistant",
-        "jobTitle": Chief Financial Officer",
+        "jobTitle": "Chief Financial Officer",
         "employeeNumber": 123,
         "maximumAuthorizationLimit": 10000,
         "canSignQuartlyReports": false
@@ -367,7 +367,7 @@ and the delegated verifiable presentation now looks like this:
         "issuanceDate": "2010-01-01T19:73:24Z",
         "credentialSubject": {
             "id": "did:example:cfo",
-            "jobTitle": Chief Financial Officer",
+            "jobTitle": "Chief Financial Officer",
             "employeeNumber": 123,
         },
         "revocation": {
@@ -395,7 +395,7 @@ and the delegated verifiable presentation now looks like this:
         "issuanceDate": "2010-01-01T19:73:24Z",
         "credentialSubject": {
             "id": "did:example:assistant",
-            "jobTitle": Chief Financial Officer",
+            "jobTitle": "Chief Financial Officer",
             "employeeNumber": 123,
             "maximumAuthorizationLimit": 10000,
             "canSignQuartlyReports": false
@@ -438,7 +438,7 @@ So our delegation credential could end up looking something like this:
     "issuanceDate": "2010-01-01T19:73:24Z",
     "credentialSubject": {
         "id": "did:example:assistant",
-        "jobTitle": Chief Financial Officer",
+        "jobTitle": "Chief Financial Officer",
         "employeeNumber": 123,
         "maximumAuthorizationLimit": 10000,
         "canSignQuartlyReports": false,
