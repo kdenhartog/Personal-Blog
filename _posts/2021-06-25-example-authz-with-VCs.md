@@ -186,7 +186,8 @@ Sweet, now the assistant can authorize payments! Let's review what the steps are
 5. Check that the verificationMethod is associated with the assertionMethod proofPurpose for the CFO in the delegation credential 
 6. Check that the verificationMethod in the delegation credential is associated with the issuer property of the delegation credential 
 7. Check that the proofValue is valid in the delegation credential proof (the middle one) based on the associated verificationMethod for the CFO 
-8. Check that the `credentialSubject.jobTitle` has "Chief Financial Officer" in the delegation credential 9. Check that the issuer property in the delegation credential matches the `credentialSubject.id` in the original credential
+8. Check that the `credentialSubject.jobTitle` has "Chief Financial Officer" in the delegation credential 
+9. Check that the issuer property in the delegation credential matches the `credentialSubject.id` in the original credential
 
 **Original Credential checks** 
 
