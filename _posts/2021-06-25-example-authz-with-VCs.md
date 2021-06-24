@@ -181,9 +181,20 @@ Sweet, now the assistant can authorize payments! Let's review what the steps are
 3. Check that the proofValue is valid in the VP proof (the bottom one) based on the associated verificationMethod for the assistant
 4. Check that the challenge matches the VP Request
 
-**Delegation Credential checks** 5. Check that the verificationMethod is associated with the assertionMethod proofPurpose for the CFO in the delegation credential 6. Check that the verificationMethod in the delegation credential is associated with the issuer property of the delegation credential 7. Check that the proofValue is valid in the delegation credential proof (the middle one) based on the associated verificationMethod for the CFO 8. Check that the `credentialSubject.jobTitle` has "Chief Financial Officer" in the delegation credential 9. Check that the issuer property in the delegation credential matches the `credentialSubject.id` in the original credential
+**Delegation Credential checks** 
 
-**Original Credential checks** 10. Check that the verificationMethod is associated with the assertionMethod proofPurpose for the employer in the original credential 11. Check that the verificationMethod in the original credential is associated with the issuer property of the original credential 12. Check that the proofValue is valid in the original credential proof (the top one) based on the associated verificationMethod for the CFO 13. Check that the `credentialSubject.jobTitle` has "Chief Financial Officer" in the original credential 14. Check that the original credential isn't revoked
+5. Check that the verificationMethod is associated with the assertionMethod proofPurpose for the CFO in the delegation credential 
+6. Check that the verificationMethod in the delegation credential is associated with the issuer property of the delegation credential 
+7. Check that the proofValue is valid in the delegation credential proof (the middle one) based on the associated verificationMethod for the CFO 
+8. Check that the `credentialSubject.jobTitle` has "Chief Financial Officer" in the delegation credential 9. Check that the issuer property in the delegation credential matches the `credentialSubject.id` in the original credential
+
+**Original Credential checks** 
+
+10. Check that the verificationMethod is associated with the assertionMethod proofPurpose for the employer in the original credential 
+11. Check that the verificationMethod in the original credential is associated with the issuer property of the original credential 
+12. Check that the proofValue is valid in the original credential proof (the top one) based on the associated verificationMethod for the CFO 
+13. Check that the `credentialSubject.jobTitle` has "Chief Financial Officer" in the original credential 
+14. Check that the original credential isn't revoked
 
 > Note to consider: If the credentials in the verifiable presentation are ordered incorrectly that's going to introduce some problems
 
