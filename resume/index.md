@@ -1,7 +1,9 @@
---
+---
 title: "Kyle Den Hartog's Resume"
-description: This is my current and most up to date resume as of 7/18/2021.
+description: This is my current and most up to date resume as of 07/18/2021.
+date: 2021-07-18
 layout: resume
 ---
 
-<embed src="/assets/Resume-KDH-Software-2021.pdf" width="800px" height="2100px" />
+Resume current as of: 07/18/2021
+<embed type="application/pdf" src="/assets/Resume-KDH-Software-2021.pdf" width= "800" height= "2100" />
