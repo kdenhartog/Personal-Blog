@@ -5,5 +5,5 @@ date: 2021-07-18
 layout: resume
 ---
 
-Resume current as of: 07/18/2021
-<embed type="application/pdf" src="/assets/Resume-KDH-Software-2021.pdf" width= "800" height= "2100" />
+Resume current as of: 01/17/2022
+<embed type="application/pdf" src="/assets/Resume-KDH-Software-2022.pdf" width= "800" height= "2100" />
