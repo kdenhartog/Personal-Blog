@@ -1,50 +1,61 @@
 {
-    "@context": ["https://www.w3.org/ns/did/v1", "https://kyledenhartog.com/context/doggoservice.json", "https://www.w3id.org/security/suites/ed25519-2018/v1", "https://www.w3id.org/security/suites/x25519-2019/v1"],
-    "id": "did:web:kyledenhartog.com",
-    "verificationMethod": [
+  "did": "did:web:kyledenhartog.com",
+  "registrationStatus": "PROCESSING",
+  "localMetadata": {
+    "keys": [
+      {
+        "didDocumentKeyId": "did:web:kyledenhartog.com#z12Kuidf",
+        "kmsKeyId": "77207dfa-50a2-48cf-83fd-82ef45f6bb60"
+      },
+      {
+        "didDocumentKeyId": "did:web:kyledenhartog.com#z6LSfp6J",
+        "kmsKeyId": "e8c6b149-5ba8-4611-947e-d781468a11ba"
+      }
+    ],
+    "registered": 1643256176146,
+    "initialDidDocument": {
+      "@context": [
+        "https://w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "id": "did:web:kyledenhartog.com",
+      "publicKey": [
         {
-            "id": "#signingKey",
-            "type": "Ed25519VerificationKey2018",
-            "controller": "did:web:kyledenhartog.com",
-            "publicKeyBase58": "AywtfWyMWRTokKnnwLChyCDMM32sbLzcGFxuuxKtwmxH"
-        },
-        {
-            "id": "did:web:kyledenhartog.com#handshakeKey",
-            "type": "X25519KeyAgreementKey2019",
-            "controller": "did:web:kyledenhartog.com",
-            "publicKeyBase58": "trJuKT83nv2FruwDkmMD5945R1syU5sCDiLm4kr2mTj"
-        },
-        {
-          "id": "/pathHandshakeKey",
-          "type": "X25519KeyAgreementKey2019",
-          "controller": "did:key:z6MkuQCtdrrbS1iyN1MXJgUxNtZv4Qi5M1p5m7aFmHo3AQXD",
-          "publicKeyBase58": "5YLjenFRbMKCHV9HsFWhYbmxUnVnuEQxREwYvmRcLpX7"
+          "id": "did:web:kyledenhartog.com#z12Kuidf",
+          "controller": "did:web:kyledenhartog.com",
+          "type": "JsonWebKey2020",
+          "publicKeyJwk": {
+            "kty": "EC",
+            "crv": "P-256",
+            "x": "5gX31cQZh8_f5VxtB9wiZYfNkPr0YBkgmTsK-uV3MRE",
+            "y": "O-Ev7uhx0lA-KdtkPBVgWo0i0g9I1jtndPPrdCsBDyg"
+          }
         }
-    ],
-    "authentication": [
-        "did:web:kyledenhartog.com#signingKey"
-    ],
-    "assertionMethod": [
-        "did:web:kyledenhartog.com#signingKey",
+      ],
+      "authentication": [
+        "did:web:kyledenhartog.com#z12Kuidf"
+      ],
+      "assertionMethod": [
+        "did:web:kyledenhartog.com#z12Kuidf"
+      ],
+      "capabilityDelegation": [
+        "did:web:kyledenhartog.com#z12Kuidf"
+      ],
+      "capabilityInvocation": [
+        "did:web:kyledenhartog.com#z12Kuidf"
+      ],
+      "keyAgreement": [
         {
-          "id": "did:web:kyledenhartog.com/fullyQualifiedPathSigningKey",
-          "type": "Ed25519VerificationKey2018",
-          "controller": "did:key:z6MkuQCtdrrbS1iyN1MXJgUxNtZv4Qi5M1p5m7aFmHo3AQXD",
-          "publicKeyBase58": "Fwwr3ccA6UEWFWWpd7X7Xo1vEqSDw8Zj56fKw1q2FBjq"
-        }        
-    ],
-    "capabilityDelegation": [
-        "did:web:kyledenhartog.com#signingKey"
-    ],
-    "capabilityInvocation": [
-        "did:web:kyledenhartog.com#signingKey"
-    ],
-    "keyAgreement": [
-        "did:web:kyledenhartog.com#handshakeKey", "/pathHandshakeKey"
-    ],
-    "service": [{
-        "id":"did:web:kyledenhartog.com#dogPicService",
-        "type": "DogPicService", 
-        "serviceEndpoint": "https://i.imgur.com"
-      }]
+          "id": "did:web:kyledenhartog.com#z6LSfp6J",
+          "controller": "did:web:kyledenhartog.com",
+          "type": "JsonWebKey2020",
+          "publicKeyJwk": {
+            "kty": "OKP",
+            "crv": "X25519",
+            "x": "PXXljTpRs0Vn__cCzqsttPMNj4zhg-LB3TpCqS0VsQ4"
+          }
+        }
+      ]
+    }
+  }
 }
