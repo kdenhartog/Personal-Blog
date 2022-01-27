@@ -1,19 +1,4 @@
 {
-  "did": "did:web:kyledenhartog.com",
-  "registrationStatus": "PROCESSING",
-  "localMetadata": {
-    "keys": [
-      {
-        "didDocumentKeyId": "did:web:kyledenhartog.com#z12Kuidf",
-        "kmsKeyId": "77207dfa-50a2-48cf-83fd-82ef45f6bb60"
-      },
-      {
-        "didDocumentKeyId": "did:web:kyledenhartog.com#z6LSfp6J",
-        "kmsKeyId": "e8c6b149-5ba8-4611-947e-d781468a11ba"
-      }
-    ],
-    "registered": 1643256176146,
-    "initialDidDocument": {
       "@context": [
         "https://w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
@@ -57,5 +42,3 @@
         }
       ]
     }
-  }
-}
