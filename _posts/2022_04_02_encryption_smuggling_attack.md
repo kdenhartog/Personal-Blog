@@ -1,0 +1,14 @@
+---
+layout: thought
+title: "Encryption smuggling attack technique"
+date: 2022-04-02
+excerpt: "Encryption serves its purpose of protecting the message even if the plaintext message is malicious so be sure to sanitize the plaintext message"
+tags: [Encryption, attack vector]
+comments: true
+---
+
+Recently I came across an interesting attack technique when I was doing a security review of some code. In principle the purpose of the code was to be able to handle a message that is sent by another party in a way that it's encrypted and only decryptable by the recipient. In otherwords any old secure communication protocol. While reviewing this feature that was implemented I came across an interesting bit of code where the initial encrypted message and it's metadata were thoroughly sanitized to make sure that the untrusted data that was received wasn't somehow maliciously encoded in a way that it would cause issues. The code handled that as expected where it processed the message assuming the bytes of the  message received were untrusted and did input validation accordingly. Once that was done though it was assumed that the contents were no longer malicious and all further processing was an application logic consideration such as decrypting the message and rendering it to the user. However this wasn't quite the case...
+
+Essentially the problem with this assumption that everything else is trusted after performing sanitization of the bytes is that the bytes that have been encrypted couldn't be sanitized yet because they were still protected by the confidentiality guaruntees of the encryption. So here in lies the problem. Encryption serves its purpose of protecting the message even if the plaintext message is malicious in a way that could be used to attack application logic code that would traditionally be handled as if it only received trusted inputs. For example, let's say you have a message that contains a malicious image that were to be rendered. In this case because the image was unable to be validated during the upfront validation it's important to still consider the plaintext payload as untrusted data that needs to be revalidated. Ideally this would be done even in the case where the authenticity of the message is strongly tied to an identity because the sender of the message still could be malicious.
+
+In summary, the thing to consider with all of this is that you need to make sure to not only sanitize the encrypted message received off the wire but also the plaintext message once it's been decrypted. This will help substantially when implementing secure messaging protocols like [Message Layer Security](https://messaginglayersecurity.rocks/) or [DIDComm Messaging](https://identity.foundation/didcomm-messaging/spec/).
