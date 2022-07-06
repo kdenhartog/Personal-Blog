@@ -62,13 +62,13 @@ linkedin:           kyledenhartog
 #weibo:             username
 #flickr:            username
 #codepen:           username
-keybase:           kdenhartog
+#keybase:           kdenhartog
 #xmpp:              username@server.com
 #hackernews:        username
 #quora:              username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap

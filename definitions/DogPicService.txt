@@ -1,1 +1,0 @@
-DogPicService - This is a service used to deliver doggo memes.
