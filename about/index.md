@@ -13,4 +13,4 @@ When Den Hartog isn’t cooking internet standards for breakfast, eating code fo
 
 Most recently Den Hartog has ventured out into the space of technical consulting where he offers a variety of technical services including secure software development, static code analysis for securing applications, cryptography code reviews, or advisement in the standards or decentralized identity spaces. Reach out today if you or your business would like to know more today!
 
-To find out more about Kyle, reach out to him with a message on linkedIn or via my alternative communication channels on the [landing page](../).
+To find out more about Kyle, reach out to him with a message on linkedIn or via his alternative communication channels on the [landing page](../).
