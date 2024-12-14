@@ -6,7 +6,6 @@ date: 2024-12-15
 excerpt: "the methods we choose to communicate with affects not only the cohesiveness of the community, but also the norms and the values reflected."
 tags: [discussion, writing, community development]
 comments: false
-
 ---
 
 When I first heard the quote “We shape our tools then our tools shape us” from Orie Steele (A quick web search attributes it originally to John Culkin) I didn’t quite understand the profound wisdom in the statement. It’s one of those clickbait sounding quotes that sticks with you for a bit and has to ruminate for longer like it’s an idea slow cooking in a crockpot on thanksgiving dinner. But the wisdom in it rings true as I see it playing out repetitively within the technology space and I’m sure it makes a difference in many other aspects of our life.
