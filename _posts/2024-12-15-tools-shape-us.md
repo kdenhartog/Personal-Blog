@@ -1,4 +1,3 @@
-
 ---
 layout: thought
 title: "We Shape Our Tools then Our Tools Shape Us"
