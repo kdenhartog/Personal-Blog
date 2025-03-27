@@ -1,0 +1,21 @@
+# Development configuration
+# This file extends _config.yml with settings for local development
+
+# Override URL settings for local development
+url: http://localhost:4000
+baseurl: ""
+
+# Disable some production features for faster local builds
+# Uncomment these options to speed up your local build if needed
+# incremental: true
+# livereload: true
+
+# Additional settings for local development
+# Show future dated posts
+future: true
+
+# Enable verbose output during build
+verbose: true
+
+# Use localhost and don't enforce SSL in development
+enforce_ssl: false
