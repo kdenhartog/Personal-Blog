@@ -36,9 +36,11 @@ jobs:
             - name: Setup Ruby
               uses: ruby/setup-ruby@7886c6653556e1164c58a7603d88286b5f708293 # v1.228.0
               with:
-                  ruby-version: "3.1" # Not needed with a .ruby-version file
+                  ruby-version: "3.2.2" # Specifying exact version to match .ruby-version file
                   bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-                  cache-version: 0 # Increment this number if you need to re-download cached gems
+                  cache-version: 1 # Increment this number to force cache regeneration
+            - name: Add Linux platform
+              run: bundle lock --add-platform x86_64-linux
             - name: Setup Pages
               id: pages
               uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
