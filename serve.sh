@@ -5,6 +5,9 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 NC='\033[0m' # No Color
 
+echo -e "${YELLOW}Installing dependencies...${NC}"
+bundle install --with jekyll_plugins test
+
 echo -e "${YELLOW}Starting Jekyll development server...${NC}"
 echo -e "${YELLOW}Site will be available at:${NC} http://localhost:4000"
 

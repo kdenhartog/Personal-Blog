@@ -35,14 +35,17 @@ However, we can imagine a world where the site casts an intent to the wallet, su
 
 A wallet could enable the following API to perform a checkout operation without needing to share an address:
 
-```
+```javascript
 const checkoutTxn = await window.ethereum.request({
-	"method": "wallet_checkout",
-	"params": {
-		"recipient": "eip155:1:0x1234abc", // an address to send to
-		"amount": "100.01",
-		"currency": ["eip155:1:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", "eip155:1:0xdAC17F958D2ee523a2206206994597C13D831ec7"]
-	}
+    method: "wallet_checkout",
+    params: {
+        recipient: "eip155:1:0x1234abc", // a pseudonoymous address to send funds to
+        amount: "100.01",
+        currency: [
+            "eip155:1:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "eip155:1:0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        ]
+    }
 });
 ```
 
