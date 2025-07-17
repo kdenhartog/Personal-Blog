@@ -2,7 +2,7 @@
 layout: thought
 title: "How SSI Becomes a Centralized Tool For Gatekeeping"
 date: 2025-07-18
-excerpt: "Self Sovereign Identity subtly introduces centralization through its chosen trust architecture. We've re-created a structure where institutions with well-known identifiers make claims about subjects with untrusted identifiers—essentially recreating the same gatekeeping mechanisms SSI was meant to eliminate."
+excerpt: "Self Sovereign Identity subtly introduces centralization through its chosen trust architecture. We've re-created a structure where institutional claims about subjects are more trusted which recreates the same gatekeeping mechanisms SSI was meant to eliminate."
 tags: [SSI, Web]
 comments: false
 ---
@@ -36,4 +36,3 @@ To exemplify on this a bit further though let's take a look at the age verificat
 It's easy to argue that I'm contriving these sorts of examples in a game of what-ifs, but let's look at what's most recently happened in the case of "financial compliance" with KYC and debanking. Within the past decade or so, there's been a growing trend of debanking people based on how the funds are generated. In the further out example, we saw this happen with [operation chokepoint](https://en.wikipedia.org/wiki/Operation_Choke_Point) where the US government leveraged a capability they already had (financial compliance afforded through KYC) and repurposed it to limit the capaibilities of people they deemed to be participating in "high risk" activities.
 
 In this previous financial compliance system, the new age assurance mechanisms, and in any other use case that relies upon deferred instituitional trust through high assurance credentials we should expect to see that the technology will also be repurposed for alternative means than what they were designed for. In some cases, people will see this as a feature rather than a bug to protect others, but it remains an unintended consequence by design of the system. This happens because the verifier bestows a new set of hard power in the issuer (trust) by removing hard power from the subject (agency and in some cases privacy) which will eventually be repurposed when the next moral crisis occurs as [history suggests](https://www.exurbe.com/tools-for-thinking-about-censorship/). None of this is because of the technical design of the technologies though, it's simply because this is how we've chosen to use them and that's what makes this such a subtle inversion of power that goes against the original goals many of us have been working towards.
-
