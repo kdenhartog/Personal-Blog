@@ -2,7 +2,7 @@
 layout: thought
 title: "How SSI Becomes a Centralized Tool For Gatekeeping"
 date: 2025-07-18
-excerpt: "This isn't a new problem in decentralized identity - it's been ongoing for centuries, dating back to the printing press. We keep inverting solutions and repeating historical patterns."
+excerpt: "Self Sovereign Identity subtly introduces centralization through its chosen trust architecture. We've re-created a structure where institutions with well-known identifiers make claims about subjects with untrusted identifiers—essentially recreating the same gatekeeping mechanisms SSI was meant to eliminate."
 tags: [SSI, Web]
 comments: false
 ---
