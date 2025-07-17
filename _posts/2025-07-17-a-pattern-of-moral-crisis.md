@@ -7,7 +7,7 @@ tags: [SSI, Web]
 comments: false
 ---
 
-I was recently reading the mailing list of the W3C Credentials Community Group and decided to write up a response as a blog post to [Manu's latest email](https://lists.w3.org/Archives/Public/public-credentials/2025Jul/0086.html). The conversation is still evolving, but the piece I wanted to add to this discussion is that this isn't a new problem. I largely agree with Christopher Allen's framing in 
+I was recently reading the mailing list of the W3C Credentials Community Group and decided to write up a response as a blog post to [Manu's latest email](https://lists.w3.org/Archives/Public/public-credentials/2025Jul/0086.html). The conversation is still evolving, but the piece I wanted to add to this discussion is that this isn't a new problem. I largely agree with Christopher Allen's framing in [Musings of a Trust Architect: When Technical Standards Meet Geopolitical Reality](https://www.blockchaincommons.com/musings/gdc25/). However, from my perspective we need to look back to history to understand our uneasiness. Even if we remain hopeful that the right thing™ will eventually come.
 
 I don’t know that I necessarily agree with Manu that this is a temporary solution and a long term solution will emerge that’s better. This isn’t a new problem, it’s been ongoing for centuries dating back even to the creation of the printing press.
 
