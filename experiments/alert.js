@@ -1,1 +1,0 @@
-window.alert("this is executing JS");
