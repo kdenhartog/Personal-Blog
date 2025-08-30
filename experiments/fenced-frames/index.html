@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenced Frame Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        #fencedFrame {
+            border: 1px solid #999;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fenced Frame Demo</h1>
+    
+    <div class="container">
+        <h2>Regular iframe (will be blocked by X-Frame-Options)</h2>
+        <iframe src="https://github.com" width="600" height="300" title="GitHub in iframe"></iframe>
+        <p><em>The iframe above should show an error because GitHub blocks framing.</em></p>
+    </div>
+
+    <div class="container">
+        <h2>Fenced Frame</h2>
+        <fencedframe id="fencedFrame" width="600" height="300" title="Content in fenced frame"></fencedframe>
+        <p><em>The fenced frame above will display content if properly configured.</em></p>
+    </div>
+
+    <script>
+        
+        const fencedFrame = document.getElementById('fencedFrame');
+        
+        console.log('Fenced frame element created. Actual content loading requires API support.');
+    </script>
+</body>
+</html>

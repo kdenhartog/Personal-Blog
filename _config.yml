@@ -1,52 +1,52 @@
 # Site
-title:              Kyle Den Hartog
-bio:                "Hacker. Golfer. Futurist. Skier. Developer."
-description:        "Hacker. Golfer. Futurist. Skier. Developer."
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/profile.jpg'
-background:         'assets/img/background.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://kyledenhartog.com
-enforce_ssl:        kyledenhartog.com
+title: Kyle Den Hartog
+bio: "Hacker. Golfer. Futurist. Skier. Developer."
+description: "Hacker. Golfer. Futurist. Skier. Developer."
+reading_time: true
+words_per_minute: 200
+logo: "assets/img/profile.jpg"
+background: "assets/img/background.jpg"
+tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
+locale: en_US
+url: https://kyledenhartog.com
+enforce_ssl: kyledenhartog.com
 
 include:
-  - ".well-known"
+    - ".well-known"
 
 # Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    enable_coderay: false
+mathjax: true
 sass:
-  sass_dir:         _sass
-  style:            compressed
+    sass_dir: _sass
+    style: compressed
 
 # Comments
-disqus_shortname:   kyledenhartog
+disqus_shortname: kyledenhartog
 
 # Social
 # if you don't have any of social below, comment the line.
 google:
-  #plus:            #username
-  #analytics:        
-  #verify:
-  #ad-client:
-  #ad-slot:
+    #plus:            #username
+    #analytics:
+    #verify:
+    #ad-client:
+    #ad-slot:
 #bing-verify:
-email:              mail@kyledenhartog.com
-twitter:            PryvitKyle
+email: mail@kyledenhartog.com
+twitter: PryvitKyle
 #facebook:          username
-github-url:         kdenhartog
-stackoverflow:      2276234/kyle-den-hartog
-linkedin:           kyledenhartog
+github-url: kdenhartog
+stackoverflow: 2276234/kyle-den-hartog
+linkedin: kyledenhartog
 #xing:              username
 #instagram:          username
 #lastfm:            username
@@ -69,13 +69,28 @@ linkedin:           kyledenhartog
 
 # Gems
 plugins:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+    - jekyll-mentions
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-gist
 
 jekyll-mentions:
     base_url: https://github.com
 
 # Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, _examples]
+exclude:
+    [
+        README.md,
+        Gemfile,
+        Gemfile.lock,
+        node_modules,
+        gulpfile.js,
+        package.json,
+        _site,
+        src,
+        vendor,
+        CNAME,
+        LICENSE,
+        Rakefile,
+        _examples,
+    ]
