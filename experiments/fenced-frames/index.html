@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fenced Frame Example</title>
+    <title>Fenced Frame Test</title>
+    <meta http-equiv="Content-Security-Policy" content="fenced-frame-src *; frame-src *; script-src 'unsafe-inline'; style-src 'unsafe-inline';">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,37 +12,240 @@
             margin: 0 auto;
             padding: 20px;
         }
-        .container {
-            border: 2px solid #ccc;
+        .test-container {
+            margin: 20px 0;
+            border: 2px solid #ddd;
+            border-radius: 8px;
             padding: 20px;
-            margin: 20px 0;
         }
-        #fencedFrame {
-            border: 1px solid #999;
+        .status {
+            background: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+        .error {
+            background: #fee;
+            border: 1px solid #faa;
+            color: #c00;
+        }
+        .success {
+            background: #efe;
+            border: 1px solid #afa;
+            color: #060;
+        }
+        .warning {
+            background: #ffe;
+            border: 1px solid #ffa;
+            color: #cc6600;
+        }
+        #fencedFrameContainer {
+            width: 600px;
+            height: 400px;
+            border: 2px solid #007acc;
+            border-radius: 5px;
             margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .fallback-container {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .debug-info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
         }
     </style>
 </head>
 <body>
-    <h1>Fenced Frame Demo</h1>
+    <h1>🧪 Fenced Frame Test Page</h1>
     
-    <div class="container">
-        <h2>Regular iframe (will be blocked by X-Frame-Options)</h2>
-        <iframe src="https://github.com" width="600" height="300" title="GitHub in iframe"></iframe>
-        <p><em>The iframe above should show an error because GitHub blocks framing.</em></p>
+    <div class="test-container">
+        <h2>Browser Compatibility Check</h2>
+        <div id="compatibilityStatus" class="status">Checking compatibility...</div>
     </div>
-
-    <div class="container">
-        <h2>Fenced Frame</h2>
-        <fencedframe id="fencedFrame" width="600" height="300" title="Content in fenced frame"></fencedframe>
-        <p><em>The fenced frame above will display content if properly configured.</em></p>
+    
+    <div class="test-container">
+        <h2>Fenced Frame Test</h2>
+        <div id="fencedFrameContainer"></div>
+        <div id="status" class="status">Initializing...</div>
     </div>
-
+    
+    <div class="fallback-container">
+        <h3>Fallback: Regular iFrame Test</h3>
+        <iframe id="fallbackFrame" src="./test-content.html" width="600" height="300" style="border: 1px solid #ccc; border-radius: 5px;"></iframe>
+        <p><em>This iframe should work regardless of fenced frame support.</em></p>
+    </div>
+    
+    <div class="debug-info" id="debugInfo"></div>
+    
     <script>
+        function updateStatus(message, type = 'info') {
+            const statusElement = document.getElementById('status');
+            statusElement.textContent = message;
+            statusElement.className = `status ${type}`;
+        }
         
-        const fencedFrame = document.getElementById('fencedFrame');
+        function updateCompatibility(message, type = 'info') {
+            const compatElement = document.getElementById('compatibilityStatus');
+            compatElement.textContent = message;
+            compatElement.className = `status ${type}`;
+        }
         
-        console.log('Fenced frame element created. Actual content loading requires API support.');
+        function addDebugInfo(info) {
+            const debugElement = document.getElementById('debugInfo');
+            debugElement.innerHTML += info + '<br>';
+        }
+        
+        async function checkBrowserSupport() {
+            const checks = [];
+            
+            // Check for fenced frame APIs
+            const hasFencedFrameElement = !!window.HTMLFencedFrameElement;
+            const hasFencedFrameConfig = !!window.FencedFrameConfig;
+            
+            checks.push(`HTMLFencedFrameElement: ${hasFencedFrameElement}`);
+            checks.push(`FencedFrameConfig: ${hasFencedFrameConfig}`);
+            checks.push(`User Agent: ${navigator.userAgent}`);
+            checks.push(`Current URL: ${window.location.href}`);
+            
+            addDebugInfo('<strong>Browser Support Check:</strong>');
+            checks.forEach(check => addDebugInfo('  ' + check));
+            
+            if (hasFencedFrameElement && hasFencedFrameConfig) {
+                updateCompatibility('✅ Fenced Frame APIs detected!', 'success');
+                return true;
+            } else {
+                updateCompatibility('❌ Fenced Frame APIs not available. Enable chrome://flags/#privacy-sandbox-ads-apis and chrome://flags/#fenced-frames', 'error');
+                return false;
+            }
+        }
+        
+        async function testFencedFrameApproaches() {
+            const testUrl = new URL('./test-content.html', window.location.href).href;
+            addDebugInfo(`<strong>Testing URL:</strong> ${testUrl}`);
+            
+            const container = document.getElementById('fencedFrameContainer');
+            
+            try {
+                const fencedFrame = document.createElement('fencedframe');
+                addDebugInfo('✓ Created fencedframe element');
+                
+                // Set dimensions
+                fencedFrame.width = 600;
+                fencedFrame.height = 400;
+                fencedFrame.style.width = '100%';
+                fencedFrame.style.height = '100%';
+                
+                // Approach 1: Try with FencedFrameConfig (most likely to fail)
+                try {
+                    const config = new FencedFrameConfig(testUrl);
+                    fencedFrame.config = config;
+                    addDebugInfo('✓ Set config with FencedFrameConfig');
+                    updateStatus('Attempting fenced frame with FencedFrameConfig...', 'warning');
+                } catch (configError) {
+                    addDebugInfo('✗ FencedFrameConfig failed: ' + configError.message);
+                    
+                    // Approach 2: Try with src attribute (also likely to fail)
+                    try {
+                        fencedFrame.src = testUrl;
+                        addDebugInfo('✓ Set src attribute as fallback');
+                        updateStatus('Attempting fenced frame with src attribute...', 'warning');
+                    } catch (srcError) {
+                        addDebugInfo('✗ src attribute failed: ' + srcError.message);
+                        throw new Error('Both config and src approaches failed');
+                    }
+                }
+                
+                // Add event listeners
+                const events = ['load', 'error', 'loadstart', 'loadend'];
+                events.forEach(eventType => {
+                    fencedFrame.addEventListener(eventType, (e) => {
+                        addDebugInfo(`📡 Fenced frame event: ${eventType}`);
+                        updateStatus(`Fenced frame ${eventType} event fired`, 
+                                   eventType === 'error' ? 'error' : 
+                                   eventType === 'load' ? 'success' : 'info');
+                    });
+                });
+                
+                container.appendChild(fencedFrame);
+                updateStatus('Fenced frame created and added to DOM, waiting for load...', 'info');
+                
+                // Check loading status after delays
+                setTimeout(() => {
+                    if (fencedFrame.contentDocument || fencedFrame.contentWindow) {
+                        addDebugInfo('✓ Fenced frame has content access');
+                        updateStatus('✅ Fenced frame loaded successfully!', 'success');
+                    } else {
+                        addDebugInfo('✗ No content access after 2s');
+                    }
+                }, 2000);
+                
+                setTimeout(() => {
+                    addDebugInfo(`📊 Final status - contentDocument: ${!!fencedFrame.contentDocument}, contentWindow: ${!!fencedFrame.contentWindow}`);
+                    
+                    if (!fencedFrame.contentDocument && !fencedFrame.contentWindow) {
+                        updateStatus('❌ Fenced frame failed to load content after 5 seconds', 'error');
+                        addDebugInfo('💡 This is expected with current fenced frame limitations. Check the fallback iframe below.');
+                    }
+                }, 5000);
+                
+            } catch (error) {
+                addDebugInfo('✗ Fatal error: ' + error.message);
+                updateStatus('❌ Failed to create fenced frame: ' + error.message, 'error');
+                
+                // Show a message about why this likely failed
+                const errorMsg = document.createElement('div');
+                errorMsg.className = 'status warning';
+                errorMsg.innerHTML = `
+                    <strong>Why this likely failed:</strong><br>
+                    • Fenced frames are experimental and have strict limitations<br>
+                    • They're designed for privacy sandbox APIs, not general content<br>
+                    • Regular URLs typically won't work with FencedFrameConfig<br>
+                    • Server must send 'Supports-Loading-Mode: fenced-frame' header<br>
+                    • Chrome flags must be enabled: privacy-sandbox-ads-apis and fenced-frames
+                `;
+                container.appendChild(errorMsg);
+            }
+        }
+        
+        async function runAllTests() {
+            addDebugInfo('<strong>Starting Fenced Frame Test Suite...</strong>');
+            
+            const browserSupported = await checkBrowserSupport();
+            
+            if (browserSupported) {
+                await testFencedFrameApproaches();
+            } else {
+                updateStatus('⚠️ Skipping fenced frame test - APIs not available', 'warning');
+                addDebugInfo('💡 To enable fenced frames in Chrome:');
+                addDebugInfo('  1. Go to chrome://flags/#privacy-sandbox-ads-apis');
+                addDebugInfo('  2. Set to "Enabled"');
+                addDebugInfo('  3. Go to chrome://flags/#fenced-frames');
+                addDebugInfo('  4. Set to "Enabled"');
+                addDebugInfo('  5. Restart Chrome');
+            }
+            
+            // Test fallback iframe
+            const fallbackFrame = document.getElementById('fallbackFrame');
+            fallbackFrame.onload = () => {
+                addDebugInfo('✅ Fallback iframe loaded successfully');
+            };
+            fallbackFrame.onerror = (e) => {
+                addDebugInfo('❌ Fallback iframe failed to load: ' + e.message);
+            };
+        }
+        
+        // Start tests when page loads
+        document.addEventListener('DOMContentLoaded', runAllTests);
     </script>
 </body>
 </html>

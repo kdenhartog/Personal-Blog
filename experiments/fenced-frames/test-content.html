@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenced Frame Test Content</title>
+    <!-- Simulate fenced frame support header (note: actual server header required) -->
+    <meta http-equiv="Supports-Loading-Mode" content="fenced-frame">
+    <!-- Permissive CSP for testing -->
+    <meta http-equiv="Content-Security-Policy" content="fenced-frame-src *; frame-src *; script-src 'unsafe-inline'; style-src 'unsafe-inline';">
+    <!-- Additional permissions for fenced frame features -->
+    <meta name="fenced-frame-permissions" content="attribution-reporting private-aggregation shared-storage">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .status {
+            background: rgba(0, 255, 0, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>🎉 Content Loaded!</h1>
+        <p>This demonstrates that the content can load </p>
+        <p><strong>Loaded at:</strong> <span id="loadTime"></span></p>
+    </div>
+    
+    <script>
+        // Set load time
+        document.getElementById('loadTime').textContent = new Date().toLocaleTimeString();
+        console.log('Fenced frame test content loaded successfully at', new Date().toISOString());
+        
+        // Comprehensive fenced frame environment detection
+        function detectFrameEnvironment() {
+            const results = {
+                isInFrame: window !== window.parent,
+                frameElement: window.frameElement,
+                frameType: 'unknown',
+                parentAccessible: false,
+                fencedFrameApis: !!window.fence
+            };
+            
+            // Try to determine frame type
+            try {
+                if (window.frameElement) {
+                    results.frameType = window.frameElement.tagName.toLowerCase();
+                    results.parentAccessible = true;
+                }
+            } catch (e) {
+                console.log('Cannot access frameElement (could be cross-origin or fenced frame)');
+                if (results.isInFrame) {
+                    results.frameType = 'cross-origin-or-fenced';
+                }
+            }
+            
+            // Try to access parent window
+            try {
+                const parentOrigin = window.parent.location.origin;
+                results.parentAccessible = true;
+                console.log('Parent origin accessible:', parentOrigin);
+            } catch (e) {
+                console.log('Cannot access parent window (fenced frame or cross-origin)');
+                results.parentAccessible = false;
+            }
+            
+            // Check for fenced frame specific APIs
+            if (window.fence) {
+                console.log('Fenced frame APIs detected!');
+                results.fencedFrameApis = true;
+            }
+            
+            return results;
+        }
+        
+        const frameInfo = detectFrameEnvironment();
+        console.log('Frame environment analysis:', frameInfo);
+        
+        // Create comprehensive debug information
+        const debugInfo = document.createElement('div');
+        debugInfo.innerHTML = `
+            <h3>Environment Debug Info</h3>
+            <p><strong>Loaded at:</strong> ${new Date().toLocaleString()}</p>
+            <p><strong>Window Location:</strong> ${window.location.href}</p>
+            <p><strong>Is in Frame:</strong> ${frameInfo.isInFrame ? '✅ Yes' : '❌ No'}</p>
+            <p><strong>Frame Type:</strong> ${frameInfo.frameType}</p>
+            <p><strong>Parent Accessible:</strong> ${frameInfo.parentAccessible ? '✅ Yes' : '❌ No'}</p>
+            <p><strong>Fenced Frame APIs:</strong> ${frameInfo.fencedFrameApis ? '✅ Available' : '❌ Not Available'}</p>
+            <p><strong>Frame Element:</strong> ${frameInfo.frameElement ? frameInfo.frameElement.tagName : 'None/Inaccessible'}</p>
+            <p><strong>User Agent:</strong> ${navigator.userAgent.substring(0, 80)}...</p>
+            <p><strong>Referrer:</strong> ${document.referrer || 'None'}</p>
+        `;
+        debugInfo.style.fontSize = '11px';
+        debugInfo.style.marginTop = '20px';
+        debugInfo.style.background = 'rgba(255, 255, 255, 0.15)';
+        debugInfo.style.padding = '15px';
+        debugInfo.style.borderRadius = '8px';
+        debugInfo.style.border = '1px solid rgba(255, 255, 255, 0.2)';
+        debugInfo.style.lineHeight = '1.4';
+        
+        // Add success indicator based on frame type
+        const successIndicator = document.createElement('div');
+        if (frameInfo.isInFrame) {
+            if (frameInfo.frameType === 'fencedframe' || !frameInfo.parentAccessible) {
+                successIndicator.innerHTML = '🎆 <strong>Possibly in Fenced Frame!</strong> Parent access blocked as expected.';
+                successIndicator.style.background = 'rgba(0, 255, 0, 0.3)';
+            } else {
+                successIndicator.innerHTML = '🖼️ <strong>In Regular iFrame</strong> - This is the fallback test.';
+                successIndicator.style.background = 'rgba(255, 255, 0, 0.3)';
+            }
+        } else {
+            successIndicator.innerHTML = '🎯 <strong>Loaded Directly</strong> - Not in any frame.';
+            successIndicator.style.background = 'rgba(255, 165, 0, 0.3)';
+        }
+        successIndicator.style.padding = '10px';
+        successIndicator.style.borderRadius = '5px';
+        successIndicator.style.margin = '10px 0';
+        successIndicator.style.textAlign = 'center';
+        
+        // Add server header note
+        const serverNote = document.createElement('div');
+        serverNote.innerHTML = `
+            <h4>⚠️ Important Server Configuration Note:</h4>
+            <p>For true fenced frame support, the server must send this HTTP header:</p>
+            <code style="background: rgba(0,0,0,0.2); padding: 5px; border-radius: 3px; display: block; margin: 5px 0;">Supports-Loading-Mode: fenced-frame</code>
+            <p>Static file hosting (like GitHub Pages) cannot add this header.</p>
+        `;
+        serverNote.style.fontSize = '12px';
+        serverNote.style.marginTop = '15px';
+        serverNote.style.background = 'rgba(255, 165, 0, 0.2)';
+        serverNote.style.padding = '10px';
+        serverNote.style.borderRadius = '5px';
+        serverNote.style.border = '1px solid rgba(255, 165, 0, 0.4)';
+        
+        // Add all info to the content div
+        const contentDiv = document.querySelector('.content');
+        contentDiv.appendChild(successIndicator);
+        contentDiv.appendChild(debugInfo);
+        contentDiv.appendChild(serverNote);
+        
+        // Send a message to parent if possible (for additional testing)
+        try {
+            if (window.parent && window.parent !== window) {
+                window.parent.postMessage({
+                    type: 'fenced-frame-test',
+                    loaded: true,
+                    frameInfo: frameInfo,
+                    timestamp: Date.now()
+                }, '*');
+                console.log('Sent message to parent window');
+            }
+        } catch (e) {
+            console.log('Cannot send message to parent (expected for fenced frames)');
+        }
+    </script>
+</body>
+</html>
