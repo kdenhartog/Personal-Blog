@@ -17,15 +17,17 @@ Let's talk about a new (I didn't invent it, I'm just re-applying it) model for m
 
 ### Single-axis political spectrum (number line)
 
-![single axis Political Spectrum](https://thumbs.dreamstime.com/b/defining-political-spectrum-radical-to-reactionary-political-spectrum-left-right-266973113.jpg)
+![single axis Political Spectrum](https://www.politicalcompass.org/images/leftright.png)
+###### source: https://politicalcompass.com
 
 ### Two-axis political spectrum (quadrant graph)
 
-![two-axis political spectrum](https://commons.wikimedia.org/wiki/Category:Political_spectrum_diagrams_(2_axes)#/media/File:13th_Month_Pay.png)
+![two-axis political spectrum](https://www.politicalcompass.org/images/bothaxes.gif)
+###### Source: https://politicalcompass.com
 
 ### Multivariate political spectrum (Radar Chart)
 
-![Radar chart](https://en.wikipedia.org/wiki/Radar_chart#/media/File:Spider_Chart2.jpg)
+![Radar chart simple](/assets/img/radar-chart-post/radar_chart_simple.png)
 
 The problem with politics is that it is a multivariate by design. Put another way, the number of issues that any group of people can care about at one time is infinite and relative. As an example, today some of the challenging conflicts we're working to resolve are political polarization (why I'm writing this in the first place), Immigration and national identities in a globally connected world, Poverty and economic disparity in a more interconnected world, and social identities that allow us to find our tribe. These are modern problems that don't match the same difficulties they worked to resolve in 500BCE or 1250 (at least I wouldn't think so, but I'm not well read on these eras). I've cherry-picked five broad categories, but there are many more! Think about what issue you care about most - does it fit within these 5? Probably not, and that's the point.
 
@@ -44,6 +46,10 @@ Now, one can imagine the problem expanding to any number of people. To help visu
 ![multivariate-spectrum-10-people](/assets/img/radar-chart-post/radar_graph_10_people.png)
 
 As you can see, it becomes increasingly complex to find common ground as more people are involved in establishing it. This complexity may contribute to why social media feels like a cesspool to debate political topics on, unless you find a sub-community that aligns with your views, or in other words, a "safe space". With 10 people something like problem one would likely see battle lines drawn where Person 2, 3, 4, and 9 take one side and Person 5, 6, 7, 8 and 10 take the other side and depending on how the conversation goes Person 1 either goes silent and listens and gets pulled in one direction or another or acts as a moderator between the two sides.
+
+### Impact on Governance
+
+It's also indicative of the reason representative democracies appear to be struggling in the current era and new forms of governance like [Algocracy](https://en.wikipedia.org/wiki/Government_by_algorithm) and [Futurarchy](https://en.wikipedia.org/wiki/Futarchy) are being explored. Even with in a group of two, selecting a representative of that group is difficult because it's unlikely to represent the views of both via a single person. When you add the complexity of a representing a populace of 10,000 the representation devolves to a tyranny of the majority. This complexity also means within a democracy we can't focus on choosing the best candidate, but rather have to focus on removing those who no longer represent our views well enough. However, if there's no trustworthy alternative replacement, we collectively accept what we've got over taking the risk of things getting worse due to the [Doubling Back Aversion](https://pubmed.ncbi.nlm.nih.gov/40343790/) bias. It begs the question then of whether single-representation backed by party politics will be replaced with alternative forms of governance now that our methods of disseminating information have changed, but I digress.
 
 ### Exploring the Solution Space
 
