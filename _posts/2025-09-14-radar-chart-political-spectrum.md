@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Visualizing the Political Spectrum as a Radar Chart to Naturally Regulate Speech"
+title: "Breaking the Left-Right Binary: How Multivariate Political Mapping Can Help Us Redesign Online Debate"
 date: 2025-09-14
 excerpt: "The problem with politics is that it is a multivariate by design. Put another way, the number of problems that any group of people can care about at one time is infinite and relative. So we need a new way to model it."
 tags: [Speech, Web, Social Media]
