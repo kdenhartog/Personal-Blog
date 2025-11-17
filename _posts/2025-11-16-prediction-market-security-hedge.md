@@ -9,7 +9,7 @@ comments: false
 
 Prediction markets aren't a new concept, but they are a tool being used more
 widely these days. For the most part, these are being used for pseudo-gambling
-on events, but there's something more interesting about them for me.
+on events, but there's something more interesting in them for me.
 What if a prediction market could be used as a tool to model risk in the same way
 What does an actuary do for an insurance company? If we presume that a prediction
 The market can leverage information asymmetry; could we then use the price
@@ -70,7 +70,7 @@ would not be at least $80 by the end of the day when the user withdraws their
 funds. In this case, the prediction market on the price would behave similarly to how an options contract works, hedging the risk.
 
 However, what if we wanted to hedge some other type of risk, such as the loss of
-funds due to a protocol hack occurring on Aave, which made it so the stablecoin
+funds due to a protocol hack occurring on Aave, which made it, so the stablecoin
 reward protocol couldn't return funds to the user? We could achieve this by
 betting "no" on a prediction market that won't be hacked before a set time. If the
 protocol doesn't get hacked, then the fees won from the prediction market are
@@ -91,14 +91,14 @@ withdrawal because the protocol stayed secure, or their bet is paid out because
 the protocol was hacked.
 
 Additionally, since the prediction market would require evidence of a hack, the
-The shifting of the yes bet upwards can act as a canary signal to the user to
+shifting of the yes bet upwards can act as a canary signal to the user to
 automatically withdraw the funds. In this way, a hacker could conduct the hack
 and receive both the funds from the uninsured (since it's an opt-in bet) and a
 portion of the bet.
 
 I'm not totally convinced the incentive structures are properly structured yet,
 But I think there's merit to the use of prediction markets as an insurance
-mechanisms. Can anyone come up with a better structure that generates revenue
+mechanism. Can anyone come up with a better structure that generates revenue
 for an arbitrary protocol, protects the user's funds in a catastrophic event like
 this, and allows the hacker to claim some portion of the funds as a bounty
 structure (presumably they'd return the uninsured funds to prevent criminal
