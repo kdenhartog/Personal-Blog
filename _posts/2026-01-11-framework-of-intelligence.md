@@ -12,7 +12,7 @@ I was recently reading a Reddit post of someone who seemed to be younger, wonder
 
 Using an IQ test to measure intelligence is like using a basketball hoop to see who can dunk, a doorway to see who can walk through it, and a limbo bar to measure height. In other words, we’re creating some semi-random tests that are correlated with height to measure it in the same way the questions on an IQ test correlate with testing some forms of intelligence.
 
-Instead, I’d suggest thinking about intelligence differently. First, I’d look at https://www.simplypsychology.org/multiple-intelligences.html to understand that intelligence comes in many different forms and each is an independent skill that can be built up. For example, with enough time, most anyone can learn the piano and boost their musical intelligence.
+Instead, I’d suggest thinking about intelligence differently. First, I’d look at [Gardner's Theory of Multiple Intelligence's](https://www.simplypsychology.org/multiple-intelligences.html) to understand that intelligence comes in many different forms and each is an independent skill that can be built up. For example, with enough time, most people can learn the piano and boost their musical intelligence.
 
 Second, think of intelligence as knowledge that compounds over time. In order to learn, we usually need to attach the new idea to some old idea we know. So, as we know more things, we can learn new things, and that makes the growth rate of knowledge compound over time. Kind of like compounding interest when you invest.
 
