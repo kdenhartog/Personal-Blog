@@ -1,7 +1,7 @@
 ---
 layout: thought
 title: "Framework for Applying Gardner's Theory of Multiple Intelligences"
-date: 2026-01-11
+date: 2026-01-10
 excerpt: "Think of intelligence as knowledge that compounds over time."
 tags: [cognitive science,Intelligence, Musings]
 comments: false
