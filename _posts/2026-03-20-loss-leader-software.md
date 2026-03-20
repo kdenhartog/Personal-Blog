@@ -7,9 +7,7 @@ tags: [software development, OSS, open source, web3]
 comments: false
 ---
 
-# Loss Leader Software
-
-_Thank you to [@Cyph3rVae](https://x.com/Cyph3rVae), [@FryCookVC](https://x.com/FryCookVC) and [@gnukeith](https://x.com/gnukeith) for the review and feedback here._
+<small>_Thank you to [@Cyph3rVae](https://x.com/Cyph3rVae), [@FryCookVC](https://x.com/FryCookVC) and [@gnukeith](https://x.com/gnukeith) for the review and feedback here._</small>
 
 I’m genuinely surprised more people don’t apply the economic concept of loss leader products to software. It’s a common economic principle that is used, but not named, within the software community already. Naming it can help us create a better paradigm for software development if it were more widely understood what tradeoffs we’re making with it. So, what is a Loss Leader in the traditional economic sense? By Wikipedia’s definition, “A loss leader is a pricing strategy where a product is sold at a price below its market cost to stimulate other sales of more profitable goods or services”.
 
